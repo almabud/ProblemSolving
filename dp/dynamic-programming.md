@@ -26,11 +26,11 @@ Here we can see that&#x20;
 
 We can say that $fib(n) = fib(n-1) + fib(n+2)$
 
-If we draw a tree for $$fib(7)$$
+If we draw a tree for $fib(7)$
 
 <img src="../.gitbook/assets/file.drawing (1).svg" alt="​" class="gitbook-drawing">
 
-Here we can see we need to re-calculate the value $$fib(2), fib(3), fib(4), fib(5)$$​. Also, each of them is a subproblem. As these subproblem results are needed again and again to calculate other subproblems, these subproblems are called overlapping subproblems.
+Here we can see we need to re-calculate the value $fib(2), fib(3), fib(4), fib(5)$​. Also, each of them is a subproblem. As these subproblem results are needed again and again to calculate other subproblems, these subproblems are called overlapping subproblems.
 
 ### Optimal Substructure
 
