@@ -1,4 +1,4 @@
 # Table of contents
 
 * [README](README.md)
-* [TOPICS].(topics/DP.md)
+* [Index].(topics/DP.md)
