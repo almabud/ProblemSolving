@@ -24,7 +24,7 @@ Here we can see that&#x20;
 * 4th fib is 2 which is equal of (1 + 1) = (2nd fib + 3rd fib)
 * 5th fib is 3 is equal of (2 + 1) = (4th fib + 3rd fib)
 
-We can say that $fib(n) = fib(n-1) + fib(n+2)$
+We can say that $$fib(n) = fib(n-1) + fib(n+2)$$​
 
 If we draw a tree for $fib(7)$
 
