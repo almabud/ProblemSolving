@@ -1,7 +1,0 @@
-root:
-  - ./
-  - topics
-
-structure:
-  readme: ./README.md
-  summary: ./SUMMERY.md
