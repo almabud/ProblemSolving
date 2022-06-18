@@ -6,5 +6,5 @@
 
 ## Problems & Solutions
 
-* [Problems & Solution](group-1/problems-and-solution/README.md)
-  * [Page 1](group-1/problems-and-solution/page-1.md)
+* [Problems & Solution](/problems-&-solution/README.md)
+  * [Page 1](/problems-&-solution/leet-code-72/page-1.md)
