@@ -24,13 +24,13 @@ Here we can see that&#x20;
 * 4th fib is 2 which is equal of (1 + 1) = (2nd fib + 3rd fib)
 * 5th fib is 3 is equal of (2 + 1) = (4th fib + 3rd fib)
 
-We can say that $fib(n) = fib(n-1) + fib(n+2)$
+We can say that **$fib(n) = fib(n-1) + fib(n+2)$**
 
-If we draw a tree for $fib(7)$
+If we draw a tree for **$fib(7)$**
 
 <img src="../.gitbook/assets/file.drawing (1).svg" alt="​" class="gitbook-drawing">
 
-Here we can see we need to re-calculate the value $fib(2), fib(3), fib(4), fib(5)$​. Also, each of them is a subproblem. As these subproblem results are needed again and again to calculate other subproblems, these subproblems are called overlapping subproblems.
+Here we can see we need to re-calculate the value **$fib(2), fib(3), fib(4), fib(5)$​**. Also, each of them is a subproblem. As these subproblem results are needed again and again to calculate other subproblems, these subproblems are called overlapping subproblems.
 
 ### Optimal Substructure
 
@@ -41,7 +41,7 @@ That means, If the solution of a larger problem can be found by combining the so
 
 In another word, If the optimal solution to a problem, **S**, of **size** **n** can be calculated by **JUST** looking at the optimal solution of a subproblem, **s**, with **size < n** and **NOT ALL** solutions to the subproblem, **AND** it will also result in an optimal solution for problem **S**, then this problem **S** is considered to have **optimal substructure.**
 
-In the above example, the $fib(n)$​can be found by the summation of the solutions of subproblems to $fib(n-1) and fib(n-2)$​. So **Fibonacci** has the optimal substructure property.
+In the above example, the **$fib(n)$​**can be found by the summation of the solutions of subproblems to **$fib(n-1) and fib(n-2)$​**. So **Fibonacci** has the optimal substructure property.
 
 Another example could be the shortest path algorithm.\
 **(Shortest Path Problem)**: consider a **undirected** graph with **vertices a,b,c,d,e** and **edges (a,b), (a,e), (b,c), (c,d), (d,a) & (e,b)** then shortest path between **a & c** is **a -- b -- c** and this problem can be broken down into finding shortest path between **a & b** and then shortest path between **b & c** and **this will give us a valid solution**. Note that we have **two** ways of **reaching b from a:**
