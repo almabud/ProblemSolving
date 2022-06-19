@@ -6,5 +6,5 @@
 
 ## Problems And Solutions
 
-* [Problems & Solutions](/problems-and-solutions/README.md)
-  * [Page 1](/problems-and-solutions/leet-code-72/page-1.md)
+* [Problems & Solutions](problems-and-solutions/README.md)
+  * [\[Leet-code\]72. Edit Distance](problems-and-solutions/leet-code-72/page-1.md)
