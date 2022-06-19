@@ -78,13 +78,13 @@ Tabulation is the opposite of Memoization, as in Memoization we solve the proble
 
 ### References
 
-* [_<mark style="color:blue;">https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0</mark>_](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0)__
-* __[_<mark style="color:blue;">https://stackoverflow.com/questions/27768418/dynamic-programming-why-the-need-for-optimal-sub-structure</mark>_](https://stackoverflow.com/questions/27768418/dynamic-programming-why-the-need-for-optimal-sub-structure)__
-* __[_<mark style="color:blue;">https://stackoverflow.com/questions/58493674/what-is-the-difference-between-overlapping-subproblems-and-optimal-substructure</mark>_](https://stackoverflow.com/questions/58493674/what-is-the-difference-between-overlapping-subproblems-and-optimal-substructure)__
-* __[_<mark style="color:blue;">https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/</mark>_](https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/)__
-* __[_<mark style="color:blue;">https://www.geeksforgeeks.org/optimal-substructure-property-in-dynamic-programming-dp-2/</mark>_](https://www.geeksforgeeks.org/optimal-substructure-property-in-dynamic-programming-dp-2/)__
-* __[_<mark style="color:blue;">https://www.javatpoint.com/overlapping-sub-problems#:\~:text=What%20is%20an%20overlapping%20sub,of%20all%20the%20sub%2Dproblems.</mark>_](https://www.javatpoint.com/overlapping-sub-problems)__
-* __[_<mark style="color:blue;">https://www.programiz.com/dsa/dynamic-programming</mark>_](https://www.programiz.com/dsa/dynamic-programming)__
-* __[_<mark style="color:blue;">https://www.youtube.com/watch?v=LMELPA8J6LM</mark>_](https://www.youtube.com/watch?v=LMELPA8J6LM)__
-* __[_<mark style="color:blue;">https://www.codechef.com/wiki/tutorial-dynamic-programming</mark>_](https://www.codechef.com/wiki/tutorial-dynamic-programming)__
-* __[_<mark style="color:blue;">https://www.geeksforgeeks.org/tabulation-vs-memoization/</mark>_](https://www.geeksforgeeks.org/tabulation-vs-memoization/)__
+* [_<mark style="color:blue;">https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0</mark>_](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0)\_\_
+* [_<mark style="color:blue;">https://stackoverflow.com/questions/27768418/dynamic-programming-why-the-need-for-optimal-sub-structure</mark>_](https://stackoverflow.com/questions/27768418/dynamic-programming-why-the-need-for-optimal-sub-structure)
+* [_<mark style="color:blue;">https://stackoverflow.com/questions/58493674/what-is-the-difference-between-overlapping-subproblems-and-optimal-substructure</mark>_](https://stackoverflow.com/questions/58493674/what-is-the-difference-between-overlapping-subproblems-and-optimal-substructure)
+* [_<mark style="color:blue;">https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/</mark>_](https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/)
+* [_<mark style="color:blue;">https://www.geeksforgeeks.org/optimal-substructure-property-in-dynamic-programming-dp-2/</mark>_](https://www.geeksforgeeks.org/optimal-substructure-property-in-dynamic-programming-dp-2/)
+* [_<mark style="color:blue;">https://www.javatpoint.com/overlapping-sub-problems#:\~:text=What%20is%20an%20overlapping%20sub,of%20all%20the%20sub%2Dproblems.</mark>_](https://www.javatpoint.com/overlapping-sub-problems)
+* [_<mark style="color:blue;">https://www.programiz.com/dsa/dynamic-programming</mark>_](https://www.programiz.com/dsa/dynamic-programming)
+* [_<mark style="color:blue;">https://www.youtube.com/watch?v=LMELPA8J6LM</mark>_](https://www.youtube.com/watch?v=LMELPA8J6LM)
+* [_<mark style="color:blue;">https://www.codechef.com/wiki/tutorial-dynamic-programming</mark>_](https://www.codechef.com/wiki/tutorial-dynamic-programming)
+* [_<mark style="color:blue;">https://www.geeksforgeeks.org/tabulation-vs-memoization/</mark>_](https://www.geeksforgeeks.org/tabulation-vs-memoization/)
