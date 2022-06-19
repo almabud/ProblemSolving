@@ -1,3 +1,3 @@
 # \[Leet-code]72. Edit Distance
 
-{% embed url="https://leetcode.com/problems/edit-distance/" %}
+### [\[Leet-code\]72. Edit Distance](https://leetcode.com/problems/edit-distance/)&#x20;
