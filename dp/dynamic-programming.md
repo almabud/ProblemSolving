@@ -74,7 +74,7 @@ Tabulation is the opposite of Memoization, as in Memoization we solve the proble
 
 ### Tabulation vs Memoization
 
-![Tabulation vs Memoization](../.gitbook/assets/Tabulation-vs-Memoization-1.png)
+![Tabulation vs Memoization](<../.gitbook/assets/Tabulation-vs-Memoization-1 (1).png>)
 
 ### References
 
