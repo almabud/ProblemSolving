@@ -4,7 +4,7 @@
 
 {% embed url="https://leetcode.com/problems/edit-distance/" %}
 
-### Discussion:
+### Problem overview
 
 Given two strings str1 and str2 and below operations that can be performed on str1. Find a minimum number of edits (operations) required to convert ‘str1’ into ‘str2’. &#x20;
 
@@ -35,7 +35,7 @@ below three operations.
 Replace 'n' with 'r', insert t, insert a
 ```
 
-
+### Discussion
 
 The idea is to process all characters one by one starting from the right sides of both strings. \
 There are two possibilities for every pair of characters being traversed. &#x20;
