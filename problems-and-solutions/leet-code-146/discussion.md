@@ -1,5 +1,7 @@
 # \[Leet-code] 146. LRU Cache
 
+![](https://img.shields.io/static/v1?label=DSA\&message=Linked%20List\&color=informational\&labelColor=21223e)![](https://img.shields.io/static/v1?label=DSA\&message=Hash%20Map\&color=informational\&labelColor=21223e)![](https://img.shields.io/static/v1?label=Difficulty\&message=Easy\&color=success\&labelColor=21223e)
+
 ### Problem Description
 
 {% embed url="https://leetcode.com/problems/lru-cache/" %}
@@ -37,3 +39,20 @@ lRUCache.get(1);    // return -1 (not found)
 lRUCache.get(3);    // return 3
 lRUCache.get(4);    // return 4
 ```
+
+### Discussion
+
+In the first impression maybe we try to solve this problem using mark array. Mark array could be a solution. Let's try to solve this using mark array
+
+Let's say LRU cache size is **4.**
+
+* 1st element is 1
+* 2nd element is 2
+* 3rd element is 5
+* 4th element is 0
+
+Now how do you track the order of coming? You can use another mark array for the order. But in this case you have to change the order of all other elements. That means you need to traverse the mark array and it will cost $$O(n)$$​time complexity. But we need to do this in $$O(1)$$​.&#x20;
+
+**Solution:** We can do this using  **Linked list** & **Hash map.** We will keep the node inside the **hash map** along with the **value.** In linked list we can delete element from the any position wee need. We will keep the **head,** **tail node** & **size** of the cache. Then if any number come, we check into the **hash map.** If it is found  in the **hash map** then we **return the value** and **move that node at first of the linked list** and thus it will become **most recently used value.**  If cache limit is going to overflow then **tail will be deleted** and **previous node of the will be present tail.**
+
+****
