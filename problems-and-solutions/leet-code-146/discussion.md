@@ -1,6 +1,6 @@
 # \[Leet-code] 146. LRU Cache
 
-![](https://img.shields.io/static/v1?label=DSA\&message=Linked%20List\&color=informational\&labelColor=21223e) ![](https://img.shields.io/static/v1?label=DSA\&message=Hash%20Map\&color=informational\&labelColor=21223e) ![](https://img.shields.io/static/v1?label=Difficulty\&message=Easy\&color=success\&labelColor=21223e)
+![](https://img.shields.io/static/v1?label=DSA\&message=Linked%20List\&color=informational\&labelColor=21223e)![](https://img.shields.io/static/v1?label=DSA\&message=Hash%20Map\&color=informational\&labelColor=21223e)![](https://img.shields.io/static/v1?label=Difficulty\&message=Easy\&color=success\&labelColor=21223e)
 
 ### Problem Description
 
