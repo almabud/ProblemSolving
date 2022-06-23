@@ -1,6 +1,6 @@
 # \[Leet-code] 146. LRU Cache
 
-![](https://img.shields.io/static/v1?label=DSA\&message=Linked%20List\&color=informational\&labelColor=21223e)![](https://img.shields.io/static/v1?label=DSA\&message=Hash%20Map\&color=informational\&labelColor=21223e)![](https://img.shields.io/static/v1?label=Difficulty\&message=Easy\&color=success\&labelColor=21223e)
+![](https://img.shields.io/static/v1?label=DSA\&message=Linked%20List\&color=informational\&labelColor=21223e) ![](https://img.shields.io/static/v1?label=DSA\&message=Hash%20Map\&color=informational\&labelColor=21223e) ![](https://img.shields.io/static/v1?label=Difficulty\&message=Easy\&color=success\&labelColor=21223e)&#x20;
 
 ### Problem Description
 
@@ -51,8 +51,8 @@ Let's say LRU cache size is **4.**
 * 3rd element is 5
 * 4th element is 0
 
-Now how do you track the order of coming? You can use another mark array for the order. But in this case you have to change the order of all other elements. That means you need to traverse the mark array and it will cost $$O(n)$$​time complexity. But we need to do this in $$O(1)$$​.
+Now how do you track the order of coming? You can use another mark array for the order. But in this case, you have to change the order of all other elements. That means you need to traverse the mark array and it will cost $$O(n)$$​time-complexity. But we need to do this in $$O(1)$$​.
 
-**Solution:** We can do this using **Linked list** & **Hash map.** We will keep the node inside the **hash map** along with the **value.** In linked list we can delete element from the any position wee need. We will keep the **head,** **tail node** & **size** of the cache. Then if any number come, we check into the **hash map.** If it is found in the **hash map** then we **return the value** and move that node **at first** of the **linked list** and thus it will become **most recently** used value**.** If cache limit is going to overflow then **tail** will be **deleted** and **previous node** of the **tail** will be **** present **tail.**
+**Solution:** We can do this using a **Linked list** & **Hash map.** We will keep the node inside the **hash map** along with the **value.** In the linked list we can delete elements from any position we need. We will keep the **head,** **tail node** & **size** of the cache. Then if any number comes, we check into the **hash map.** If it is found in the **hash map** then we **return the value** and move that node **at first** of the **linked list** and thus it will become the **most recently** used value. If the cache limit is going to overflow then the **tail** will be **deleted** and the **previous node** of the **tail** will be the present **tail.**
 
 ***
