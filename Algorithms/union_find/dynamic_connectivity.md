@@ -46,3 +46,10 @@ This is huge and we need a computer program to solve this type of problem.&#x20;
 * Variable names in Fortran program.&#x20;
 * Metallic sites in a composite system.
 
+### References:
+
+* [https://itnext.io/algorithms-to-efficiently-solve-dynamic-connectivity-9ad1d6c9c3c9](https://itnext.io/algorithms-to-efficiently-solve-dynamic-connectivity-9ad1d6c9c3c9)
+* [https://researchhubs.com/post/computing/algorithm-1/dynamic-connectivity.html](https://researchhubs.com/post/computing/algorithm-1/dynamic-connectivity.html)
+* [https://prydt.github.io/algorithms/union\_find/union\_find](https://prydt.github.io/algorithms/union\_find/union\_find)
+* [https://medium.com/omarelgabrys-blog/dynamic-connectivity-problem-9460f3dff2c6](https://medium.com/omarelgabrys-blog/dynamic-connectivity-problem-9460f3dff2c6)
+* [Coursera algorithms part1](https://www.coursera.org/learn/algorithms-part1)
