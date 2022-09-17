@@ -51,9 +51,6 @@ class Solution:
             return self.solution_in_log_n_binary_search_way(nums, target, left, mid)
 
 
-
-
-
 if __name__ == "__main__":
     s = Solution()
     print(s.search([1,3], 3))
