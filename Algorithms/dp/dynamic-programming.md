@@ -28,7 +28,7 @@ We can say that $$fib(n) = fib(n-1) + fib(n+2)$$​
 
 If we draw a tree for $$fib(7)$$
 
-<img src="../.gitbook/assets/file.drawing (1).svg" alt="​" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.drawing.svg" alt="​" class="gitbook-drawing">
 
 Here we can see we need to re-calculate the value $$fib(2), fib(3), fib(4), fib(5)$$​. Also, each of them is a subproblem. As these subproblem results are needed again and again to calculate other subproblems, these subproblems are called overlapping subproblems.
 
@@ -74,7 +74,7 @@ Tabulation is the opposite of Memoization, as in Memoization we solve the proble
 
 ### Tabulation vs Memoization
 
-![Tabulation vs Memoization](<../.gitbook/assets/Tabulation-vs-Memoization-1 (1).png>)
+![Tabulation vs Memoization](<../.gitbook/assets/Tabulation-vs-Memoization-1.png>)
 
 ### References
 
