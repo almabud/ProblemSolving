@@ -3,6 +3,7 @@
 * [README](README.md)
 * [Dynamic Programming](Algorithms/dp/dynamic-programming.md)
   * [Problems](Algorithms/dp/problems.md)
+* [Union_find](Algorithms/dynamic_connectivity.md)
 
 ## Problems And Solutions
 
