@@ -8,8 +8,8 @@
 
 * [Problems & Solutions](problems-and-solutions/README.md)
   * [\[Leet-code\] 1. Two Sum](problems-and-solutions/leet-code-1/solution.py)
-  * [\[Leet-code\] 15. Three Sum(problems-and-solutions/leet-code-15/solution.py)
-  * [\[Leet-code\] 33. Search in Rotated Sorted Array] (problems-and-solutions/leet-code-33/solution.py)
+  * [\[Leet-code\] 15. Three Sum](problems-and-solutions/leet-code-15/solution.py)
+  * [\[Leet-code\] 33. Search in Rotated Sorted Array](problems-and-solutions/leet-code-33/solution.py)
   * [\[Leet-code\] 53. Maximum Subarray](problems-and-solutions/leet-code-153/solution.py)
   * [\[Leet-code\]72. Edit Distance](problems-and-solutions/leet-code-72/page-1.md)
   * [\[Leet-code\] 121. Best Time to Buy and Sell Stock](problems-and-solutions/leet-code-121/solution.py)
