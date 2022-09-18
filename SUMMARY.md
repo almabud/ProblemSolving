@@ -17,6 +17,5 @@
   * [\[Leet-code\] 121. Best Time to Buy and Sell Stock](problems-and-solutions/problems-and-solutions/leet-code-121.-best-time-to-buy-and-sell-stock.md)
   * [\[Leet-code\] 146. LRU Cache](problems-and-solutions/problems-and-solutions/leet-code-146.-lru-cache.md)
   * [\[Leet-code\] 152. Maximum Product Subarray](problems-and-solutions/problems-and-solutions/leet-code-152.-maximum-product-subarray.md)
-  *
   * [\[Leet-code\] 217. Contains Duplicate](problems-and-solutions/problems-and-solutions/leet-code-217.-contains-duplicate.md)
   * [\[Leet-code\] 238. Product of Array Except Self](problems-and-solutions/problems-and-solutions/leet-code-238.-product-of-array-except-self.md)

@@ -12,10 +12,10 @@ In programming, **quick-find** is represented by two arrays:
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 17-53-59 (1).png" alt=""><figcaption></figcaption></figure>
 
-_Here, **0-5** are connected because they have the same value in **id** eg. `id[0] == id[5]`**.** The **** same goes for **3,4,8** they are connected too as they have also the same id eg. <mark style="background-color:orange;">`id[3] == id[4] == id[8]`</mark>. This means the **second** array represents whether two points are connected or not. So, We can find the connection between **p & q**  just by checking that_
+_Here, **0-5** are connected because they have the same value in **id** eg. `id[0] == id[5]`**.** The \*\*\*\* same goes for **3,4,8** they are connected too as they have also the same id eg. <mark style="background-color:orange;">`id[3] == id[4] == id[8]`</mark>. This means the **second** array represents whether two points are connected or not. So, We can find the connection between **p & q** just by checking that_
 
-<pre class="language-python"><code class="lang-python"><strong># This for find method
-</strong><strong>if id[p] == id[q]:
+<pre class="language-python"><code class="lang-python"># This for find method
+<strong>if id[p] == id[q]:
 </strong>    # They are connected
     return True</code></pre>
 
@@ -39,7 +39,7 @@ _**Step1:**_ Connect `4 to 3.` We need to change the value of `id[4] to id[3].`
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 18-24-27.png" alt=""><figcaption><p><code>Connect 4-3</code></p></figcaption></figure>
 
-_**Step2:**_ Connect `3 to 8`  We need to change the value of **`id[i] == id[3] to id[8]`**.
+_**Step2:**_ Connect `3 to 8` We need to change the value of **`id[i] == id[3] to id[8]`**.
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 18-35-53.png" alt=""><figcaption><p>Connect 3-8</p></figcaption></figure>
 
@@ -51,7 +51,7 @@ _**Step4:**_ Connect `9 to 4`. We need to change the value of `id[i] == id[9] to
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 18-45-18.png" alt=""><figcaption><p>Connect 9-4</p></figcaption></figure>
 
-_**Step5:**_ Connect `2 to 1`. We need to change the value of `id[i] == id[2] to id[1]` .&#x20;
+_**Step5:**_ Connect `2 to 1`. We need to change the value of `id[i] == id[2] to id[1]` .
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 18-47-40.png" alt=""><figcaption><p>Connect 2-1</p></figcaption></figure>
 
@@ -59,15 +59,15 @@ _**Step6:**_ Connect `8 to 9`. They are already connected.
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 18-51-06.png" alt=""><figcaption><p>Connect 8-9</p></figcaption></figure>
 
-_**Step7:**_ Connect `5 to 0`. We need to change the value of `id[i] == id[5] to id[0]` .&#x20;
+_**Step7:**_ Connect `5 to 0`. We need to change the value of `id[i] == id[5] to id[0]` .
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 18-53-10.png" alt=""><figcaption><p>Connect 5-0</p></figcaption></figure>
 
-_**Step8:**_ Connect `7 to 2`. We need to change the value of `id[i] == id[7] to id[2]` .&#x20;
+_**Step8:**_ Connect `7 to 2`. We need to change the value of `id[i] == id[7] to id[2]` .
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 18-54-48.png" alt=""><figcaption><p>Connect 7-2</p></figcaption></figure>
 
-_**Step9:**_ Connect `6 to 1`. We need to change the value of `id[i] == id[6] to id[1]` .&#x20;
+_**Step9:**_ Connect `6 to 1`. We need to change the value of `id[i] == id[6] to id[1]` .
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 18-56-20.png" alt=""><figcaption><p>Connect 6-1</p></figcaption></figure>
 
@@ -96,9 +96,8 @@ class QuickFindUF:
         for key, val in enumerate(self.mark_list):
             if val == from_Value:
                 self.mark_list[key] = to_Value
-
 ```
 {% endtab %}
 {% endtabs %}
 
-### Code Link
+### [Code Link](quick\_find.md#python)
