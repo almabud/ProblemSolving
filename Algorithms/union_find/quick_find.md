@@ -12,7 +12,7 @@ In programming, **quick-find** is represented by two arrays:
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 17-53-59 (1).png" alt=""><figcaption></figcaption></figure>
 
-_Here, **0-5** are connected because they have the same value in **id** eg. `id[0] == id[5]`**.** The \*\*\*\* same goes for **3,4,8** they are connected too as they have also the same id eg. <mark style="background-color:orange;">`id[3] == id[4] == id[8]`</mark>. This means the **second** array represents whether two points are connected or not. So, We can find the connection between **p & q** just by checking that_
+_Here, **0-5** are connected because they have the same value in **id** eg. `id[0] == id[5]`**.** The \*\*\*\* same goes for **3,4,8** they are connected too as they have also the same id eg. `id[3] == id[4] == id[8]`. This means the **second** array represents whether two points are connected or not. So, We can find the connection between **p & q** just by checking that_
 
 <pre class="language-python"><code class="lang-python"># This for find method
 <strong>if id[p] == id[q]:
@@ -73,8 +73,6 @@ _**Step9:**_ Connect `6 to 1`. We need to change the value of `id[i] == id[6] to
 
 ### Implementation:
 
-{% tabs %}
-{% tab title="Python" %}
 ```python
 class QuickFindUF:
     mark_list = []
@@ -97,7 +95,5 @@ class QuickFindUF:
             if val == from_Value:
                 self.mark_list[key] = to_Value
 ```
-{% endtab %}
-{% endtabs %}
 
 ### [Code Link](quick\_find.py)
