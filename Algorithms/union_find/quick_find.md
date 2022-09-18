@@ -29,7 +29,7 @@ Here, `6 & 1` are not connected. Using quick-find, if we connect items `6 & 1` a
 
 The main problem in this quick find approach we need to change or access so many values.
 
-#### Quick find demo
+### Quick find demo
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 18-19-15.png" alt=""><figcaption><p>Initial items</p></figcaption></figure>
 
@@ -95,5 +95,13 @@ class QuickFindUF:
             if val == from_Value:
                 self.mark_list[key] = to_Value
 ```
+
+### Time complexity
+
+In quick find the number of array access for read and write
+
+<figure><img src="../../.gitbook/assets/Screenshot from 2022-09-19 00-36-26.png" alt=""><figcaption></figcaption></figure>
+
+Union is too expensive. It takes $$n^2$$ array accesses to process a sequence of `N` union commands on `N` objects. So the time complexity of the **quick find** is $$n^2$$.
 
 ### [Code Link](quick\_find.py)
