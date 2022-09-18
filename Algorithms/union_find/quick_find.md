@@ -100,4 +100,4 @@ class QuickFindUF:
 {% endtab %}
 {% endtabs %}
 
-### [Code Link](quick\_find.md#python)
+### [Code Link](quick\_find.py)
