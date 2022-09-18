@@ -48,9 +48,12 @@ class QuickFindUF:
                 IndexError: If the index is not present in the mar_list.
         """
 
+        if self.mark_list[from_number] == self.mark_list[to_number]:
+            return
+            
         from_value = self.mark_list[from_number]
         to_value = self.mark_list[to_number]
         
         for key, val in enumerate(self.mark_list):
-            if val == to_value:
-                self.mark_list[key] = from_value
+            if val == from_Value:
+                self.mark_list[key] = to_Value
