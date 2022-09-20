@@ -14,10 +14,12 @@ In programming, **quick-find** is represented by two arrays:
 
 _Here, **0-5** are connected because they have the same value in **id** eg. `id[0] == id[5]`**.** The same goes for **3,4,8** they are connected too as they have also the same id eg. `id[3] == id[4] == id[8]`. This means the **second** array represents whether two points are connected or not. So, We can find the connection between **p & q** just by checking that_
 
-<pre class="language-python"><code class="lang-python"># This for find method
-<strong>if id[p] == id[q]:
-</strong>    # They are connected
-    return True</code></pre>
+```python
+    # This is for find method
+    if id[p] == id[q]:
+        # They are connected
+        return True
+```
 
 To merge components containing **p & q** , change all entries whose id equals id\[p] to id\[q] .
 
