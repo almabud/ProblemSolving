@@ -5,6 +5,7 @@
   * [Problems](Algorithms/dp/problems.md)
 * [Union find](Algorithms/union\_find/dynamic\_connectivity.md)
   * [Quick Find](Algorithms/union\_find/quick\_find.md)
+* [Bitwise Operations](Algorithms/bitwise_operations/logic_gates.md)
 
 ## Problems And Solutions
 
