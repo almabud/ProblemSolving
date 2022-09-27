@@ -10,7 +10,7 @@ Half adder is the simplest of all adder circuits. Half adder is a combinational 
 
 #### Truth Table
 
-| A | B | Sum(S)              | Carry(C) |
+| A | B | $Sum(S)$            | $Carry(C)$ |
 | - | - | ------------------- | -------- |
 | 0 | 0 | \[=0+0]          0  | 0        |
 | 0 | 1 | \[=0+1]           1 | 0        |
@@ -32,7 +32,7 @@ This **Half Adder** works perfectly if there is no incoming carry from the previ
 
 These two inputs will treat as a series of bits.
 
-| A | B | S | C |
+| A | B | $Sum(S)$ | $C_{out}$ |
 | - | - | - | - |
 | 1 | 1 | 0 | 1 |
 | 1 | 1 | 0 | 1 |
@@ -56,7 +56,7 @@ Full Adder is the adder that adds three inputs and produces two outputs. The fir
 
 ### Truth Table:
 
-| A | B | $C\_in$ | S | $C\_out$ |
+| A | B | $C_{in}$ | $Sum(S)$ | $C_{out}$ |
 | - | - | ------- | - | -------- |
 | 0 | 0 | 0       | 0 | 0        |
 | 0 | 0 | 1       | 1 | 0        |
@@ -70,9 +70,9 @@ Full Adder is the adder that adds three inputs and produces two outputs. The fir
 #### Expressions:
 
 $$S_{sum} = \bar{A}.\bar{B}.C_{in} + \bar{A}.B.C_{in} + A.\bar{B}.\bar{C_{in}} + A.B.C_{in}$$​\
-&#x20;         $$= \bar{A}(\bar{B}.C_{in} + B.C_{in}) + A(\bar{B}.\bar{C_{in}} + B.C_{in})$$\
-&#x20;         $$= \bar{A}(B \oplus C) + A(\overline{B \oplus C_{in}})$$\
-&#x20;         $$= A \oplus B \oplus C$$​
+$$= \bar{A}(\bar{B}.C_{in} + B.C_{in}) + A(\bar{B}.\bar{C_{in}} + B.C_{in})$$\
+$$= \bar{A}(B \oplus C) + A(\overline{B \oplus C_{in}})$$\
+$$= A \oplus B \oplus C$$​
 
 
 
@@ -92,10 +92,9 @@ $$= A.B + B.C_{in} + A.C_{in}$$
 ### Reference:
 
 * [https://www.sciencedirect.com/topics/computer-science/full-adder](https://www.sciencedirect.com/topics/computer-science/full-adder)
-* [half\__adder\_geeks\_for\_geeks_](https://www.geeksforgeeks.org/half-adder-in-digital-logic/)__
-* __[_https://www.youtube.com/watch?v=5XbRIVWFRIw_](https://www.youtube.com/watch?v=5XbRIVWFRIw)__
-* __[_full\_adder\_geeks\_for\_geeks_](https://www.geeksforgeeks.org/full-adder-in-digital-logic/)__
-* __
+* [half\__adder\_geeks\_for\_geeks_](https://www.geeksforgeeks.org/half-adder-in-digital-logic/)
+* [https://www.youtube.com/watch?v=5XbRIVWFRIw_](https://www.youtube.com/watch?v=5XbRIVWFRIw)
+* [full\_adder\_geeks\_for\_geeks](https://www.geeksforgeeks.org/full-adder-in-digital-logic/)
 
 
 
