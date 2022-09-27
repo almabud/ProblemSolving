@@ -4,9 +4,9 @@ A logic gate is a device that acts as a building block for digital circuits. The
 
 There are several logic gates. They are given bellow.&#x20;
 
-### AND <img src="../../.gitbook/assets/and-gate.png" alt="" data-size="line">
+### AND:&#x20;
 
-<figure><img src="../../.gitbook/assets/and-gate.png" alt=""><figcaption><p>AND gate</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/and-gate.png" alt=""><figcaption></figcaption></figure>
 
 It takes two input and output 1 if two input bits are the same otherwise 0.
 
@@ -19,9 +19,9 @@ It takes two input and output 1 if two input bits are the same otherwise 0.
 | 1 | 0 | 0   |
 | 1 | 1 | 1   |
 
-### OR<img src="../../.gitbook/assets/or-gate.png" alt="" data-size="line">&#x20;
+### OR:&#x20;
 
-<figure><img src="../../.gitbook/assets/or-gate.png" alt=""><figcaption><p>OR gate</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/or-gate.png" alt=""><figcaption></figcaption></figure>
 
 #### Truth table
 
@@ -32,9 +32,9 @@ It takes two input and output 1 if two input bits are the same otherwise 0.
 | 1 | 0 | 1   |
 | 1 | 1 | 1   |
 
-### XOR<img src="../../.gitbook/assets/xor-gate-symbol.jpg" alt="" data-size="line">
+### XOR:
 
-<figure><img src="../../.gitbook/assets/xor-gate-symbol.jpg" alt=""><figcaption><p>XOR gat</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/xor-gate-symbol.jpg" alt=""><figcaption></figcaption></figure>
 
 It takes 2 input and output 0 if both bits are the same otherwise 1.
 
@@ -59,9 +59,9 @@ $$
 | 1 | 0 | 1            |
 | 1 | 1 | 0            |
 
-### NOT<img src="../../.gitbook/assets/NOT-GATE-FIG-5-compressor.jpg" alt="" data-size="line">
+### NOT:
 
-<figure><img src="../../.gitbook/assets/NOT-GATE-FIG-5-compressor.jpg" alt=""><figcaption><p>NOT gate</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/NOT-GATE-FIG-5-compressor.jpg" alt=""><figcaption></figcaption></figure>
 
 #### Truth Table
 
@@ -74,9 +74,9 @@ $$
 
 A universal gate is a gate which can implement any Boolean function without need to use any other gate type. There are two universal gates **NAND** and **NOR** gate. That means using these one of them we can implement any gate like `AND, OR, XOR, NOT` .&#x20;
 
-### NAND<img src="../../.gitbook/assets/nand_gate.png" alt="" data-size="line">
+### NAND:
 
-<img src="../../.gitbook/assets/file.drawing (1).svg" alt="NAND Gate" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.drawing (1).svg" alt="" class="gitbook-drawing">
 
 The NAND gate represents the **complement** of the **AND** operation. Its name is an abbreviation of **NOT AND**.
 
@@ -98,9 +98,9 @@ Any logic gate can be implemented by this gate.
 * Implement `OR` gate\
   ![](../../.gitbook/assets/or\_using\_nand.png)
 
-### NOR<img src="../../.gitbook/assets/nor_gate.png" alt="" data-size="line">
+### NOR:
 
-<img src="../../.gitbook/assets/file.drawing (2).svg" alt="NOR gate" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.drawing (2).svg" alt="" class="gitbook-drawing">
 
 
 
