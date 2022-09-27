@@ -52,7 +52,7 @@ This is the limitation of **Half Adder** it only calculates accurate value if th
 
 Full Adder is the adder that adds three inputs and produces two outputs. The first two inputs are A and B and the third input is an input carry as C-IN. The output carry is designated as C-OUT and the normal output is designated as S which is SUM.
 
-<figure><img src="../../.gitbook/assets/full_adder (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/full_adder (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Truth Table:
 
@@ -76,12 +76,25 @@ $$S_{sum} = \bar{A}.\bar{B}.C_{in} + \bar{A}.B.C_{in} + A.\bar{B}.\bar{C_{in}} +
 
 
 
-&#x20;  &#x20;
+&#x20; $$C_{out} = \bar{A}.B.C_{in} + A.\bar{B}.C_{in} + A.B.\bar{C_{in}} + A.B.C_{in}$$\
+$$= AB(C_{in} + \bar{C_{in}}) + C_{in}(\bar{A}.B + A.\bar{B})$$\
+$$= A.B + C_{in}(A \oplus B)$$​
+
+Another way to write the expression\
+$$= A.B + B.C_{in} + A.C_{in}$$
+
+<figure><img src="../../.gitbook/assets/full_adder (1).png" alt=""><figcaption></figcaption></figure>
+
+### Implementation of Full Adder using Half Adder:
+
+<figure><img src="../../.gitbook/assets/full_adder_using_half_adder.png" alt=""><figcaption></figcaption></figure>
 
 ### Reference:
 
 * [https://www.sciencedirect.com/topics/computer-science/full-adder](https://www.sciencedirect.com/topics/computer-science/full-adder)
 * [half\__adder\_geeks\_for\_geeks_](https://www.geeksforgeeks.org/half-adder-in-digital-logic/)__
+* __[_https://www.youtube.com/watch?v=5XbRIVWFRIw_](https://www.youtube.com/watch?v=5XbRIVWFRIw)__
+* __[_full\_adder\_geeks\_for\_geeks_](https://www.geeksforgeeks.org/full-adder-in-digital-logic/)__
 * __
 
 
