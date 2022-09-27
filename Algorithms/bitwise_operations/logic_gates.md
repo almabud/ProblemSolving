@@ -38,19 +38,19 @@ It takes two input and output 1 if two input bits are the same otherwise 0.
 
 It takes 2 input and output 0 if both bits are the same otherwise 1.
 
-$$
-Y= A \oplus B \\
-Y = A.\bar{B} + \bar{A}.B
-$$
+$$ Y= A \oplus B $$
+
+$$ Y = A.\bar{B} + \bar{A}.B $$
 
 #### Notes:
 
-$$
-A \oplus A = 0\\
-A \oplus \bar{A} = 1\\
-A \oplus 0 = A\\
-A \oplus 1 = \bar{A}
-$$
+$$A \oplus A = 0$$
+
+$$A \oplus \bar{A} = 1$$
+
+$$A \oplus 0 = A$$
+
+$$A \oplus 1 = \bar{A}$$
 
 | A | B | A $\oplus$ b |
 | - | - | ------------ |
@@ -82,7 +82,7 @@ The NAND gate represents the **complement** of the **AND** operation. Its name i
 
 #### Truth Table
 
-| A | B | $\bar{A.B}$ |
+| A | B | (A.B)' |
 | - | - | ----------- |
 | 0 | 0 | 1           |
 | 0 | 1 | 1           |
@@ -108,7 +108,7 @@ The `NOR` gate represents the **complement** of the `OR` operation. Its name is 
 
 #### Truth Table
 
-| A | B | $\bar{A+B}$ |
+| A | B | (A+B)' |
 | - | - | ----------- |
 | 0 | 0 | 1           |
 | 0 | 1 | 0           |
