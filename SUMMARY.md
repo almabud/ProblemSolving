@@ -7,6 +7,7 @@
   * [Quick Find](Algorithms/union\_find/quick\_find.md)
 * [Bitwise Operations](Algorithms/bitwise_operations/introduction.md)
    * [Logic Gates](Algorithms/bitwise_operations/logic_gates.md)
+   * [Adders](Algorithms/bitwise_operations/half_and_full_adder.md)
 
 ## Problems And Solutions
 
