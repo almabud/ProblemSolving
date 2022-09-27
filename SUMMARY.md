@@ -8,6 +8,7 @@
 * [Bitwise Operations](Algorithms/bitwise_operations/introduction.md)
    * [Logic Gates](Algorithms/bitwise_operations/logic_gates.md)
    * [Adders](Algorithms/bitwise_operations/half_and_full_adder.md)
+   * [Substractors](Algorithms/bitwise_operations/half_and_full_substractor.md)
    * [Bitwise Shift](Algorithm/bitwise_operations/left_shift_right_shift.md)
 
 ## Problems And Solutions
