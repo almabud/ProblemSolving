@@ -1,6 +1,6 @@
 # Logic Gates
 
-A logic gate is a device that acts as a building block for digital circuits. They perform basic logical functions
+A logic gate is a device that acts as a building block for digital circuits. They perform basic logical functions.
 
 There are several logic gates. They are given bellow.&#x20;
 
