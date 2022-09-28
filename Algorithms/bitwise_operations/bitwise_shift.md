@@ -18,24 +18,24 @@ The **High Bit** is **the bit in a multiple-bit binary number with the largest v
 
 Shift `01101010` to left by 1. This is an 8-bit number.
 
-<figure><img src="../.gitbook/assets/left_shift.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/left_shift.png" alt=""><figcaption></figcaption></figure>
 
 #### Expression:
 
 $$x << k = x.2^k$$\
-In the above we $(106)_{2} = 01101010$​ left shifted by 1 . Now the value is $(11010100)_\_{10}= 212$ which means\
+In the above we   $106_{2} = 01101010$    left shifted by 1 . Now the value is  $(11010100)_{10}= 212$ which means\
 $$106 << 1 = 106.2^1 = 212$$​
 
 ### Right Shift:
 
 Shift `01101010` to right by 1. This is an 8-bit number.
 
-<figure><img src="../.gitbook/assets/right_shift.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/right_shift.png" alt=""><figcaption></figcaption></figure>
 
 #### Expression:
 
 $$x>>k = \dfrac{x}{2^k}$$\
-​In the above we $(106)_{2} = 01101010$​ right shifted by 1 . Now the value is $(00110101)_\_{10}= 53$ . which means\
+In the above we $106_{2} = 01101010$ right shifted by 1 . Now the value is $(00110101)_{10}= 53$ . which means\
 $$106 >> 1 = \dfrac{106}{2^1} = 53$$​
 
 > Here no floting number will be counted. Means we will get the output as an integer. Float part will be removed.
