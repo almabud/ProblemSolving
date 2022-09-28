@@ -2,9 +2,9 @@
 
 A logic gate is a device that acts as a building block for digital circuits. They perform basic logical functions.
 
-There are several logic gates. They are given bellow.&#x20;
+There are several logic gates. They are given bellow.
 
-### AND:&#x20;
+### AND:
 
 <figure><img src="../../.gitbook/assets/and-gate.png" alt=""><figcaption></figcaption></figure>
 
@@ -19,7 +19,7 @@ It takes two input and output 1 if two input bits are the same otherwise 0.
 | 1 | 0 | 0   |
 | 1 | 1 | 1   |
 
-### OR:&#x20;
+### OR:
 
 <figure><img src="../../.gitbook/assets/or-gate.png" alt=""><figcaption></figcaption></figure>
 
@@ -38,9 +38,9 @@ It takes two input and output 1 if two input bits are the same otherwise 0.
 
 It takes 2 input and output 0 if both bits are the same otherwise 1.
 
-$$ Y= A \oplus B $$
+$$Y= A \oplus B$$
 
-$$ Y = A.\bar{B} + \bar{A}.B $$
+$$Y = A.\bar{B} + \bar{A}.B$$
 
 #### Notes:
 
@@ -72,22 +72,22 @@ $$A \oplus 1 = \bar{A}$$
 
 ### Universal gate
 
-A universal gate is a gate which can implement any Boolean function without need to use any other gate type. There are two universal gates **NAND** and **NOR** gate. That means using these one of them we can implement any gate like `AND, OR, XOR, NOT` .&#x20;
+A universal gate is a gate which can implement any Boolean function without need to use any other gate type. There are two universal gates **NAND** and **NOR** gate. That means using these one of them we can implement any gate like `AND, OR, XOR, NOT` .
 
 ### NAND:
 
-<img src="../../.gitbook/assets/file.drawing (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.drawing (1) (1).svg" alt="" class="gitbook-drawing">
 
 The NAND gate represents the **complement** of the **AND** operation. Its name is an abbreviation of **NOT AND**.
 
 #### Truth Table
 
 | A | B | (A.B)' |
-| - | - | ----------- |
-| 0 | 0 | 1           |
-| 0 | 1 | 1           |
-| 1 | 0 | 1           |
-| 1 | 1 | 0           |
+| - | - | ------ |
+| 0 | 0 | 1      |
+| 0 | 1 | 1      |
+| 1 | 0 | 1      |
+| 1 | 1 | 0      |
 
 Any logic gate can be implemented by this gate.
 
@@ -102,18 +102,16 @@ Any logic gate can be implemented by this gate.
 
 <img src="../../.gitbook/assets/file.drawing (2).svg" alt="" class="gitbook-drawing">
 
-
-
 The `NOR` gate represents the **complement** of the `OR` operation. Its name is an abbreviation of **NOT OR**.
 
 #### Truth Table
 
 | A | B | (A+B)' |
-| - | - | ----------- |
-| 0 | 0 | 1           |
-| 0 | 1 | 0           |
-| 1 | 0 | 0           |
-| 1 | 1 | 0           |
+| - | - | ------ |
+| 0 | 0 | 1      |
+| 0 | 1 | 0      |
+| 1 | 0 | 0      |
+| 1 | 1 | 0      |
 
 ### Logic gate operator in python
 

@@ -49,7 +49,7 @@ Another example could be the shortest path algorithm.\
 * **a -- b (Shortest path)**
 * **a -- e -- b**
 
-![](../../.gitbook/assets/file.drawing.svg)
+![](<../../.gitbook/assets/file.drawing (1).svg>)
 
 But the **Longest Path Problem** does not have the **optimal substructure property**. **Longest** path between **a & d** is **a -- e -- b -- c -- d**, but **sum** of longest paths between **a & c** **(a -- e -- b -- c)** and **c & d** **(c -- b -- e -- a -- d)** won't give us a valid (non-repeating vertices) l**ongest path between a & d.**
 
@@ -74,7 +74,7 @@ Tabulation is the opposite of Memoization, as in Memoization we solve the proble
 
 ### Tabulation vs Memoization
 
-![Tabulation vs Memoization](<../../.gitbook/assets/Tabulation-vs-Memoization-1.png>)
+![Tabulation vs Memoization](../../.gitbook/assets/Tabulation-vs-Memoization-1.png)
 
 ### References
 
