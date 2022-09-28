@@ -17,7 +17,8 @@
 
 #### Expressions:
 
-$$Diff = \bar{A}.B + A.\bar{B} = A \oplus B$$\
+$$Diff = \bar{A}.B + A.\bar{B} = A \oplus B$$
+
 $$Borrow = \bar{A}.B$$
 
 ### Reference:
