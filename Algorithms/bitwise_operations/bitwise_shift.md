@@ -38,7 +38,7 @@ $$x>>k = \dfrac{x}{2^k}$$\
 In the above we $106_{2} = 01101010$ right shifted by 1 . Now the value is $(00110101)_{10}= 53$ . which means\
 $$106 >> 1 = \dfrac{106}{2^1} = 53$$​
 
-> Here no floting number will be counted. Means we will get the output as an integer. Float part will be removed.
+> Here no floating number will be counted. Means we will get the output as an integer. Float part will be removed.
 
 > when you store binary in memory,there as two common convention. The first convention is to store binary in memory ordered from **LSB** to **MSB**, which is referred to as **little endian**. The second convention is to store binary in memory ordered from **MSB** to **LSB**, which is referred to as **big endian**
 
