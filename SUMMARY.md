@@ -9,8 +9,8 @@
   * [Logic Gates](Algorithms/bitwise\_operations/logic\_gates.md)
   * [Adders](Algorithms/bitwise\_operations/half\_and\_full\_adder.md)
   * [Substractors](Algorithms/bitwise\_operations/half\_and\_full\_substractor.md)
-  * [Bitwise Shift](Algorithms/bitwise_operations/bitwise_shift.md)
-  * [Bitwise Operation](Algorithms/bitwise_operations/bit_wise_operations.md)
+  * [Bitwise Shift](Algorithms/bitwise\_operations/bitwise\_shift.md)
+  * [Basic Bitwise Operation](introduction/basic-bitwise-operation.md)
 
 ## Problems And Solutions
 
