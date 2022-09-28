@@ -5,11 +5,11 @@
   * [Problems](Algorithms/dp/problems.md)
 * [Union find](Algorithms/union\_find/dynamic\_connectivity.md)
   * [Quick Find](Algorithms/union\_find/quick\_find.md)
-* [Bitwise Operations](Algorithms/bitwise_operations/introduction.md)
-   * [Logic Gates](Algorithms/bitwise_operations/logic_gates.md)
-   * [Adders](Algorithms/bitwise_operations/half_and_full_adder.md)
-   * [Substractors](Algorithms/bitwise_operations/half_and_full_substractor.md)
-   * [Bitwise Shift](Algorithm/bitwise_operations/left_shift_right_shift.md)
+* [Bitwise Operations](Algorithms/bitwise\_operations/introduction.md)
+  * [Logic Gates](Algorithms/bitwise\_operations/logic\_gates.md)
+  * [Adders](Algorithms/bitwise\_operations/half\_and\_full\_adder.md)
+  * [Substractors](Algorithms/bitwise\_operations/half\_and\_full\_substractor.md)
+  * [Bitwise Shift](introduction/bitwise-shift.md)
 
 ## Problems And Solutions
 

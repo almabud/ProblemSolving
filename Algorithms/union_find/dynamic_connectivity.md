@@ -22,7 +22,7 @@ It allows items in a larger _**super-set**_ to belong to a common _**sub-set**_,
 
 Finally, dynamic connectivity asserts that one can add and remove items from the graph and that the graph can get very large (hence the title ‘dynamic’).
 
-<figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 00-37-35.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 00-37-35 (1).png" alt=""><figcaption></figcaption></figure>
 
 In the above, we need to find any path of the two given objects.
 

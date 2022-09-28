@@ -10,7 +10,7 @@ In programming, **quick-find** is represented by two arrays:
 
 > Quick-find maintains the invariant that _all connected items must have the same id\[] value._
 
-<figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 17-53-59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 17-53-59 (1).png" alt=""><figcaption></figcaption></figure>
 
 _Here, **0-5** are connected because they have the same value in **id** eg. `id[0] == id[5]`**.** The same goes for **3,4,8** they are connected too as they have also the same id eg. `id[3] == id[4] == id[8]`. This means the **second** array represents whether two points are connected or not. So, We can find the connection between **p & q** just by checking that_
 
@@ -23,7 +23,7 @@ _Here, **0-5** are connected because they have the same value in **id** eg. `id[
 
 To merge components containing **p & q** , change all entries whose id equals id\[p] to id\[q] .
 
-<figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 17-53-59 (1).png" alt=""><figcaption><p>Before connecting 1 &#x26; 6</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot from 2022-09-18 17-53-59.png" alt=""><figcaption><p>Before connecting 1 &#x26; 6</p></figcaption></figure>
 
 Here, `6 & 1` are not connected. Using quick-find, if we connect items `6 & 1` above, all entries with `id[6] = 0` (which is 6’s id value) need to change to `1` (which is 1’s id value). This means we need to change `id[0], id[5] and id[6]`.
 
