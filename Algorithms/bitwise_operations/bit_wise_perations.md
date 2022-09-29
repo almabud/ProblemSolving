@@ -86,6 +86,16 @@ and $C_{out} = 00000011 \\& 00011000 = 0000$ so there is no carry left so `00011
 * All the power of 2 have only single bit set `e.g. 16 (00010000)`. If we minus `1` from this, all the bits from LSB to set bit get toggled, `i.e., 16-1 = 15 (00001111)`. Now if we AND `n` with `(n-1)` and the result is `0` then we can say that `n` is power of `2` otherwise not. We have to take extra care when `n = 0`.
 * if $n \\& (n-1) = 0$ then it is power of `2`
 
+#### 10. $\sim (x + 1) + 1 = \sim x$
+
+Let's say $x=10110101$. We will run the above operation bellow
+
+$\sim (10110101+00000001) + 00000001 = \sim 10110110 + 00000001$
+
+$= 01001001 + 00000001 = 01001010$
+
+$= 01001010 = \sim x = \sim 10110101 = 01001010$
+
 ### Reference:
 * https://www.geeksforgeeks.org/bitwise-hacks-for-competitive-programming/
 * https://www.youtube.com/watch?v=1um-WUyjess
