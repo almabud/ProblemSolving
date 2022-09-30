@@ -7,7 +7,7 @@ For `-1` binary in python is look like `...11111111` which is 2's compliment.
 * So, we need to manually limit this bit in python. Let's say we want to limit with 32 bit.
 We can do this by using bit mask.
 
-  * 1st create a bit mask of $2^32$. Which should be all 32 bit should be `1`.
+  * 1st create a bit mask of $2^{32}$. That mean all 32 bit should be `1`.
 
   * We can achive this `mask = 0xffffffff` = `0b11111111111111111111111111111111`
 
