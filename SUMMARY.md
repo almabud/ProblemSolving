@@ -22,6 +22,7 @@
   * [\[Leet-code\] 53. Maximum Subarray](problems-and-solutions/leet-code-53/solution.md)
   * [\[Leet-code\]72. Edit Distance](problems-and-solutions/leet-code-72/solution.md)
   * [\[Leet-code\] 121. Best Time to Buy and Sell Stock](problems-and-solutions/leet-code-121/solution.md)
+  * [\[Leet-code\] 191.  Number of 1 Bits](problems-and-solutions/leet-code-191/solution.md)
   * [\[Leet-code\] 146. LRU Cache](problems-and-solutions/leet-code-146/solution.md)
   * [\[Leet-code\] 152. Maximum Product Subarray](problems-and-solutions/leet-code-152/solution.md)
   * [\[Leet-code\] 217. Contains Duplicate](problems-and-solutions/leet-code-217/solution.md)
