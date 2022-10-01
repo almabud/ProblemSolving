@@ -25,6 +25,7 @@
   * [\[Leet-code\] 191.  Number of 1 Bits](problems-and-solutions/leet-code-191/solution.md)
   * [\[Leet-code\] 146. LRU Cache](problems-and-solutions/leet-code-146/solution.md)
   * [\[Leet-code\] 152. Maximum Product Subarray](problems-and-solutions/leet-code-152/solution.md)
+  * [\[Leet-code\] 190. Reverse Bits](problems-and-solutions/leet-code-190/solution.md)
   * [\[Leet-code\] 217. Contains Duplicate](problems-and-solutions/leet-code-217/solution.md)
   * [\[Leet-code\] 238. Product of Array Except Self](problems-and-solutions/leet-code-238/solution.md)
   * [\[Leet-code\] 268. Missing Number](problems-and-solutions/leet-code-268/solution.md)
