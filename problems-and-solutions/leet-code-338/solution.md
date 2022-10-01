@@ -30,4 +30,4 @@ class Solution:
         return mark_array
 ```
 
->> The time complexity is $O(n)$ as the time complexity of finding bit ocunt is $O(1$)
+> The time complexity is $O(n)$ as the time complexity of finding bit ocunt is $O(1$)
