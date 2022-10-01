@@ -104,6 +104,16 @@ $= 01001010 = \sim x = \sim 10110101 = 01001010$
 
 * $x {\\&} (x-1)$
 
+#### 13. Find the missing number from `0-n`
+
+* $a_n = a_1 \oplus a_2 \oplus a_3 ... \oplus a_n$
+
+  $a_{(n-1)} = a_1 \oplus a_2 \oplus a_3 ... \oplus a_{(n-1)}$
+
+* now $a_n \oplus a_{(n-1)} = missing\_number$
+
+* this will works if there are only one missing number.
+
 
 ### Reference:
 * https://www.geeksforgeeks.org/bitwise-hacks-for-competitive-programming/
