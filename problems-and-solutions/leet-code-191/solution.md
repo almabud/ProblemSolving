@@ -20,7 +20,7 @@ We can solve this problem in many ways.
 
 * Here we will consider the only set bits. So, We don't need to loop through all the `32` bits like naive approach.
 
-* How we unset the right most set bit? $\textbf{(x \& (x-1))}$ by this we can unset rightmost set bit.
+* How we unset the right most set bit? $\textbf{(x \\& (x-1))}$ by this we can unset rightmost set bit.
 
 * We will run the above formula untile the number turns to `0`. That means until the set bit are unset.
 
