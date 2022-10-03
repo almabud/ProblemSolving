@@ -21,6 +21,7 @@
   * [\[Leet-code\] 20. Valid Parentheses](problems-and-solutions/leet-code-20/solution.md)
   * [\[Leet-code\] 33. Search in Rotated Sorted Array](problems-and-solutions/leet-code-33/solution.md)
   * [\[Leet-code\] 53. Maximum Subarray](problems-and-solutions/leet-code-53/solution.md)
+  * [\[Leet-code\] 70. Climbing Stairs](problems-and-solutions/leet-code-70/solution.md)
   * [\[Leet-code\]72. Edit Distance](problems-and-solutions/leet-code-72/solution.md)
   * [\[Leet-code\] 121. Best Time to Buy and Sell Stock](problems-and-solutions/leet-code-121/solution.md)
   * [\[Leet-code\] 125. Valid Palindrome](problems-and-solutions/leet-code-125/solution.md)
