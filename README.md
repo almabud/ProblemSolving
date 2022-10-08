@@ -32,5 +32,6 @@
   * [\[Leet-code\] 217. Contains Duplicate](problems-and-solutions/leet-code-217/solution.md)
   * [\[Leet-code\] 238. Product of Array Except Self](problems-and-solutions/leet-code-238/solution.md)
   * [\[Leet-code\] 268. Missing Number](problems-and-solutions/leet-code-268/solution.md)
+  * [\[Leet-code\] 322. Coin Change](problems-and-solutions/leet-code-322/solution.md)
   * [\[Leet-code\] 338. Counting Bits](problems-and-solutions/leet-code-338/solution.md)
   * [\[Leet-code\] 371. Sum of Two Integers](problems-and-solutions/leet-code-371/solution.md)
