@@ -17,7 +17,7 @@ But 'te' not a substring as this is not countinuous sequence.
 
 #### Expression of finding substring:
 
-$f(sub\_strings) = \dfrac{n*(N+1)}{2}$
+$f(sub\\_strings) = \dfrac{n*(N+1)}{2}$
 
 > Same rules apply for subarry it will name as continuous memory block.
 
@@ -34,7 +34,7 @@ For this `array = [5,6,7,8]` array subsequence are:
 
 #### Expression of finding subsequence:
 
-$f(sub\_sequence) = 2^n$
+$f(sub\\_sequence) = 2^n$
 
 ### Longest Common Subsequence (LCS):
 
@@ -116,9 +116,9 @@ For iterative solution we've to look at the table how table is updating.
 
 * If `str[i] == str2[j]` then we will sum `1` with the value of diagonnaly. $dp[i][j] = 1 + dp[i-1][j-1]$
 
-* If `str[i] != str2[j]` then we will take the maximum of left and upper side. $dp[i][j] = max(dp[i][j-1], d[i-1][j])$
+* If `str[i] != str2[j]` then we will take the maximum of the **left** and **upper** side. $dp[i][j] = max(dp[i][j-1], d[i-1][j])$
 
-* After the all iteration we will found the anser in $dp[len(str1)][len(str2)]
+* After the all iteration we will found the anser in $dp[len(str1)-1][len(str2)-1]$
 
 <figure><img src="../../../.gitbook/assets/LCS_table.png" alt=""><figcaption></figcaption></figure>
 
