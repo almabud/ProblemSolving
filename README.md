@@ -2,6 +2,7 @@
 
 * [README](README.md)
 * [Dynamic Programming](Algorithms/dp/dynamic-programming.md)
+  * [LCS](Algorithms/dp/lcs/lcs.md)
   * [Problems](Algorithms/dp/problems.md)
 * [Union find](Algorithms/union\_find/dynamic\_connectivity.md)
   * [Quick Find](Algorithms/union\_find/quick\_find.md)
