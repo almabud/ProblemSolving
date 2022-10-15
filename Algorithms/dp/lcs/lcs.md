@@ -68,7 +68,7 @@ Here, `HLL` is the longest common subsequence which length is `3`.
 
 ```python
 class LCS:
-    def lcs_recursive(self, seq_1: List[int], seq_2: List[int], index_i=0, index_j=0) -> int:
+    def lcs_recursive(self, seq_1: str, seq_2: str, index_i=0, index_j=0) -> int:
         # If any index is goes to the corespoinding sequence end then return 0.
         if index_i >= len(seq_1) or index_j >= len(seq_2):
             return 0
@@ -87,27 +87,29 @@ class LCS:
         
         return ans
     
-    def lcs_recursive_dp(self, seq_1: List[int], seq_2: List[int], index_i=0, index_j=0, dp=[]) -> int:
-        # Initialize the dp
-        if not len(dp):
-            dp = [[-1]*10000]*10000
-        # If any index is goes to the corespoinding sequence end then return 0.
-        if index_i >= len(seq_1) or index_j >= len(seq_2):
-            return 0
-        if dp[index_i][index_j] != -1:
-            return dp[index_i][index_j]
-        # Storing the ans
-        ans = 0
-        if seq_1[index_i] == seq_2[index_j]:
-            ans = 1 + self.lcs_recursive_dp(seq_1, seq_2, index_i+1, index_j+1, dp)
-        else:
-            ans = max(
-                self.lcs_recursive_dp(seq_1, seq_2, index_i, index_j+1, dp),
-                self.lcs_recursive_dp(seq_1, seq_2, index_i+1, index_j, dp)
-            )
-        dp[index_i][index_j] = ans
+    def lcs_recursive_dp(self, seq_1: str, seq_2: str, index_i=0, index_j=0, dp=[]) -> int:
+    # Initialize the dp
+    if not len(dp):
+        dp = [[-1 for x in range(len(seq_2))] for y in range(len(seq_1))]
+    # If any index is goes to the corespoinding sequence end then return 0.
+    if index_i >= len(seq_1) or index_j >= len(seq_2):
+        return 0
+    if dp[index_i][index_j] != -1:
+        return dp[index_i][index_j]
+    # Storing the ans
+    ans = 0
+    # Find LCS when both char is same.
+    if seq_1[index_i] == seq_2[index_j]:
+        ans = 1 + self.lcs_recursive_dp(seq_1, seq_2, index_i+1, index_j+1, dp)
+    # Find LCS when both char is not same.
+    else:
+        ans = max(
+            self.lcs_recursive_dp(seq_1, seq_2, index_i, index_j+1, dp),
+            self.lcs_recursive_dp(seq_1, seq_2, index_i+1, index_j, dp)
+        )
+    dp[index_i][index_j] = ans
 
-        return ans
+    return dp[index_i][index_j]
 ```
 
 ### Iterative Solution:
@@ -124,7 +126,7 @@ For iterative solution we've to look at the table how table is updating.
 
 ```python
 class LCS:
-    def lcs_iterative_dp(self, seq_1: List[int], seq_2: List[int]) -> int:
+    def lcs_iterative_dp(self, seq_1: str, seq_2: str) -> int:
         # Initialize the dp
         dp = [[0]*10000]*10000
 
@@ -140,6 +142,12 @@ class LCS:
         
         return dp[len(seq_1)-1][len(seq_2)-1]
 ```
+
+### Time Complexity:
+
+$O(N*M)$
+
+> [Source code](lcs.py)
 
 ### Reference:
 

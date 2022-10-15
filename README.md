@@ -36,3 +36,4 @@
   * [\[Leet-code\] 322. Coin Change](problems-and-solutions/leet-code-322/solution.md)
   * [\[Leet-code\] 338. Counting Bits](problems-and-solutions/leet-code-338/solution.md)
   * [\[Leet-code\] 371. Sum of Two Integers](problems-and-solutions/leet-code-371/solution.md)
+  * [\[Leet-code\] 1143. Longest Common Subsequence](problems-and-solutions/leet-code-1143/solution.md)

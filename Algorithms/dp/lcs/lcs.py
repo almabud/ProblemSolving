@@ -1,8 +1,8 @@
 from typing import List
 
 class LCS:
-    def find_lcs(self, seq_1: List[int], seq_2: List[int]) -> int:
-        return self.lcs_iterative_dp(seq_1, seq_2)
+    def find_lcs(self, seq_1:str, seq_2: str) -> int:
+        return self.lcs_recursive_dp(seq_1, seq_2)
 
     def lcs_recursive(self, seq_1: List[int], seq_2: List[int], index_i=0, index_j=0) -> int:
         # If any index is goes to the corespoinding sequence end then return 0.
@@ -23,10 +23,10 @@ class LCS:
         
         return ans
     
-    def lcs_recursive_dp(self, seq_1: List[int], seq_2: List[int], index_i=0, index_j=0, dp=[]) -> int:
+    def lcs_recursive_dp(self, seq_1: str, seq_2: str, index_i=0, index_j=0, dp=[]) -> int:
         # Initialize the dp
         if not len(dp):
-            dp = [[-1]*10000]*10000
+            dp = [[-1 for x in range(len(seq_2))] for y in range(len(seq_1))]
         # If any index is goes to the corespoinding sequence end then return 0.
         if index_i >= len(seq_1) or index_j >= len(seq_2):
             return 0
@@ -45,9 +45,9 @@ class LCS:
             )
         dp[index_i][index_j] = ans
 
-        return ans
+        return dp[index_i][index_j]
     
-    def lcs_iterative_dp(self, seq_1: List[int], seq_2: List[int]) -> int:
+    def lcs_iterative_dp(self, seq_1: str, seq_2: str) -> int:
         # Initialize the dp
         dp = [[0]*10000]*10000
 
@@ -66,7 +66,7 @@ class LCS:
 
 if __name__ == "__main__":
     s = LCS()
-    print(s.find_lcs("HELLOM", "HMRLL"))
+    print(s.find_lcs("oxcpqrsvwf", "shmtulqrypy"))
         
 
 
