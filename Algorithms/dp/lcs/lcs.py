@@ -4,7 +4,7 @@ class LCS:
     def find_lcs(self, seq_1:str, seq_2: str) -> int:
         return self.lcs_recursive_dp(seq_1, seq_2)
 
-    def lcs_recursive(self, seq_1: List[int], seq_2: List[int], index_i=0, index_j=0) -> int:
+    def lcs_recursive(self, seq_1: str, seq_2: str, index_i=0, index_j=0) -> int:
         # If any index is goes to the corespoinding sequence end then return 0.
         if index_i >= len(seq_1) or index_j >= len(seq_2):
             return 0
