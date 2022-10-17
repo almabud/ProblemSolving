@@ -112,6 +112,29 @@ For every state `n` times loop is running. so for `n` state time complexity $O(n
         
 ```
 
+```
+Another exmaple to sort out the confustion.
+seq = [4, 10, 15, 3, 5]
+d = []
+
+step-1: seq[0] = 4]
+        New d = [4]
+
+step-2: seq[1] = 10
+        New d = [4, 10]
+
+setp-3: seq[2] = 15
+        New d = [4, 10, 15]
+    
+setp-4: seq[3] = 3. From here we will create new sequence.
+        New d = [3, 10, 15]
+
+setp-5: seq[4] = 5. Here another sequence of 3.
+        New d = [3, 5, 15]
+
+Hence the sequence of 4 is large so Lis is 3.
+```
+
 ### Implementation:
 
 ```python

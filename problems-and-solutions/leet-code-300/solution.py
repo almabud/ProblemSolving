@@ -54,6 +54,7 @@ class Solution:
         # Find the LIS sequence
         for val in nums:
             lis[find_suitable_position(val)] = val
+            print(lis)
         
         lis_length = 0
         for i, val in enumerate(lis):
@@ -65,4 +66,4 @@ class Solution:
 
 if __name__ == "__main__":
     s = Solution()
-    print(s.lengthOfLIS([4,10,4,3,8,9]))
+    print(s.lengthOfLIS([4,10,15,3,5]))
