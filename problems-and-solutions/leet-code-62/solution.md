@@ -39,4 +39,4 @@ class Solution:
 
 ### Time complexity:
 
-As here $m*n$ states are occuring so the time complexity $O(m*n)$
+As here `m*n` states are occuring so the time complexity $O(m*n)$
