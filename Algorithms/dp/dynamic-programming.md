@@ -91,6 +91,8 @@ Tabulation is the opposite of Memoization, as in Memoization we solve the proble
 
 * The **second characteristic** that is common in DP problems is that **future "decisions" depend on earlier decisions**. Deciding to do something at one step may affect the ability to do something in a later step. This characteristic is what makes a greedy algorithm invalid for a DP problem - we need to factor in results from previous decisions. Admittedly, this characteristic is not as well defined as the first one, and the best way to identify it is to go through some examples.
 
+> Divide and conquer, can easily parallelized but dynamic programming is more complex to be parallelized.
+
 ### References
 
 * [_<mark style="color:blue;">https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0</mark>_](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0)\_\_
