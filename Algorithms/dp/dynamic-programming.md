@@ -76,6 +76,21 @@ Tabulation is the opposite of Memoization, as in Memoization we solve the proble
 
 ![Tabulation vs Memoization](../../.gitbook/assets/Tabulation-vs-Memoization-1.png)
 
+### When to use dp:
+
+* It is hard to define that overlapping sub-problems and optimal substracture is present in a problem or not.
+* But we can follow some pattern to identify a dp problems.
+* The **first characteristic** that is common in DP problems is that the problem will ask for the **optimum value (maximum or minimum) of something, or the   number of ways there are to do something**. For example:
+  * What is the minimum cost of doing...
+  * What is the maximum profit from...
+  * How many ways are there to do...
+  * What is the longest possible...
+  * Is it possible to reach a certain point...
+  
+  > Not all DP problems follow this format, and not all problems that follow these formats should be solved using DP. However, these formats are very common for DP problems and are generally a hint that you should consider using dynamic programming.
+
+* The **second characteristic** that is common in DP problems is that **future "decisions" depend on earlier decisions**. Deciding to do something at one step may affect the ability to do something in a later step. This characteristic is what makes a greedy algorithm invalid for a DP problem - we need to factor in results from previous decisions. Admittedly, this characteristic is not as well defined as the first one, and the best way to identify it is to go through some examples.
+
 ### References
 
 * [_<mark style="color:blue;">https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0</mark>_](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0)\_\_
@@ -88,3 +103,4 @@ Tabulation is the opposite of Memoization, as in Memoization we solve the proble
 * [_<mark style="color:blue;">https://www.youtube.com/watch?v=LMELPA8J6LM</mark>_](https://www.youtube.com/watch?v=LMELPA8J6LM)
 * [_<mark style="color:blue;">https://www.codechef.com/wiki/tutorial-dynamic-programming</mark>_](https://www.codechef.com/wiki/tutorial-dynamic-programming)
 * [_<mark style="color:blue;">https://www.geeksforgeeks.org/tabulation-vs-memoization/</mark>_](https://www.geeksforgeeks.org/tabulation-vs-memoization/)
+* [Leet code explore card](https://leetcode.com/explore/learn/card/dynamic-programming/630/an-introduction-to-dynamic-programming/4094/)
