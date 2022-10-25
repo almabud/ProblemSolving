@@ -34,6 +34,7 @@
   * [\[Leet-code\] 190. Reverse Bits](problems-and-solutions/leet-code-190/solution.md)
   * [\[Leet-code\] 191.  Number of 1 Bits](problems-and-solutions/leet-code-191/solution.md)
   * [\[Leet-code\] 198. House robber](problems-and-solutions/leet-code-198/solution.md)
+  * [\[Leet-code\] 206. Reverse linked list](problems-and-solutions/leet-code-206/solution.md)
   * [\[Leet-code\] 213. House robb II](problems-and-solutions/leet-code-213/solution.md)
   * [\[Leet-code\] 217. Contains Duplicate](problems-and-solutions/leet-code-217/solution.md)
   * [\[Leet-code\] 238. Product of Array Except Self](problems-and-solutions/leet-code-238/solution.md)
