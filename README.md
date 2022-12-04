@@ -20,6 +20,7 @@
   * [\[Leet-code\] 1. Two Sum](problems-and-solutions/leet-code-1/solution.md)
   * [\[Leet-code\] 11. Container With Most Water](problems-and-solutions/leet-code-11/solution.md)
   * [\[Leet-code\] 15. Three Sum](problems-and-solutions/leet-code-15/solution.md)
+  * [\[Leet-code\] 19. Remove Nth Node From End of List](problems-and-solutions/leet-code-19/solution.md)
   * [\[Leet-code\] 20. Valid Parentheses](problems-and-solutions/leet-code-20/solution.md)
   * [\[Leet-code\] 21. Merge Two Sorted Lists](problems-and-solutions/leet-code-21/solution.md)
   * [\[Leet-code\] 33. Search in Rotated Sorted Array](problems-and-solutions/leet-code-33/solution.md)
