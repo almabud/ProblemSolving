@@ -81,3 +81,6 @@ Under the hood, BigQuery employs a vast set of multi-tenant services driven by l
 * [GCP BigQuery](https://www.oreilly.com/library/view/google-bigquery-the/9781492044451/ch01.html)
 * [GCP BigQuery(google)](https://cloud.google.com/blog/products/data-analytics/new-blog-series-bigquery-explained-overview)
 * [Under the hood BigQuery](https://cloud.google.com/blog/products/bigquery/bigquery-under-the-hood)
+* [BigQuery(youtube)](https://www.youtube.com/watch?v=X0-vsku-wtQ)
+* [BigQuery(youtube)](https://www.youtube.com/watch?v=d3MDxC_iuaw)
+* [BigQuery analyze (youtube)](https://www.youtube.com/watch?v=Wx-aEcTf2h4)
