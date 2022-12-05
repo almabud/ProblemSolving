@@ -1,4 +1,4 @@
-# GCP Big Query
+# GCP BigQuery
 
 ### Database:
 
