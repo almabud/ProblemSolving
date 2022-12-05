@@ -1,3 +1,3 @@
 # Table of contents
 
-* [BigQuery](Algorithms/dp/dynamic-programming.md)
+* [BigQuery](big_query.md)
