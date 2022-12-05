@@ -13,6 +13,7 @@
   * [Substractors](Algorithms/bitwise\_operations/half\_and\_full\_substractor.md)
   * [Bitwise Shift](Algorithms/bitwise\_operations/bitwise\_shift.md)
   * [Basic Bitwise Operation](Algorithms/bitwise_operations/bitwise_operations.md)
+* [GCP](GCP/index.md)
 
 ## Problems And Solutions
 
