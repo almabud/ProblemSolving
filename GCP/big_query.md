@@ -67,7 +67,7 @@ BigQuery has three main part.
 
 Under the hood, BigQuery employs a vast set of multi-tenant services driven by low-level Google infrastructure technologies like **Dremel, Colossus, Jupiter and Borg**.
 
-[<figure><img src="../.gitbook/assets/under_the_hood_big_query.png" alt=""><figcaption></figcaption></figure>](https://cloud.google.com/blog/products/bigquery/bigquery-under-the-hood)
+[<img src="../.gitbook/assets/under_the_hood_big_query.png" alt="">](https://cloud.google.com/blog/products/bigquery/bigquery-under-the-hood)
 
 ### Reference:
 
