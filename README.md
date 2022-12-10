@@ -33,6 +33,7 @@
   * [\[Leet-code\] 125. Valid Palindrome](problems-and-solutions/leet-code-125/solution.md)
   * [\[Leet-code\] 139. Word Break](problems-and-solutions/leet-code-139/solution.md)
   * [\[Leet-code\] 141. Linked List Cycle](problems-and-solutions/leet-code-141/solution.md)
+  * [\[Leet-code\] 143. Reorder List](problems-and-solutions/leet-code-143/solution.md)
   * [\[Leet-code\] 146. LRU Cache](problems-and-solutions/leet-code-146/solution.md)
   * [\[Leet-code\] 152. Maximum Product Subarray](problems-and-solutions/leet-code-152/solution.md)
   * [\[Leet-code\] 190. Reverse Bits](problems-and-solutions/leet-code-190/solution.md)
