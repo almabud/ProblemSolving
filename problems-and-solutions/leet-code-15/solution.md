@@ -11,7 +11,7 @@
 
 Here, for sorting we need `nlogn`. Outer and Inner loop iterate at max `n` times. Set addition `n`.
 
-$=nlogn + n * (n+n)=nlogn + n*2n=nlogn + 2n^2 \cong O(n^2)$
+$=nlogn + n * (n*logn)=nlogn + n*n*logn=nlogn + n^2*logn \cong O(n^2*logn)$
 
 ```python
     def threesum_n_square(self, nums: List[int]) -> List[List[int]]:
