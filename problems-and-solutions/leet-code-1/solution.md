@@ -1,8 +1,6 @@
 # \[Leet-code] 1. Two sum
 
-### Problem Description
-
-{% embed url="https://leetcode.com/problems/two-sum/" %}
+### [Problem Description](url="https://leetcode.com/problems/two-sum/")
 
 ### Discussion
 
