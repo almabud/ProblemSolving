@@ -11,7 +11,7 @@
 
 Here, for sorting we need `nlogn`. Outer and Inner loop iterate at max `n` times. Set addition `n`.
 
-$=nlogn + n * (n*logn)=nlogn + n*n*logn=nlogn + n^2*logn \cong O(n^2*logn)$
+$=nlogn + n * (n*n(in worst case time complexity of set.add is n))=nlogn + n*n^2=nlogn + n^3 \cong O(n^3)$. But average case time complexity of set operation remains in `O(1)`. So, time complexity is $O(nlogn)$
 
 ```python
     def threesum_n_square(self, nums: List[int]) -> List[List[int]]:
