@@ -29,6 +29,7 @@
   * [\[Leet-code\] 62. Unique Paths](problems-and-solutions/leet-code-62/solution.md)
   * [\[Leet-code\] 70. Climbing Stairs](problems-and-solutions/leet-code-70/solution.md)
   * [\[Leet-code\]72. Edit Distance](problems-and-solutions/leet-code-72/solution.md)
+  * [\[Leet-code\]91. Decode Ways](problems-and-solutions/leet-code-91/solution.md)
   * [\[Leet-code\] 121. Best Time to Buy and Sell Stock](problems-and-solutions/leet-code-121/solution.md)
   * [\[Leet-code\] 125. Valid Palindrome](problems-and-solutions/leet-code-125/solution.md)
   * [\[Leet-code\] 139. Word Break](problems-and-solutions/leet-code-139/solution.md)
