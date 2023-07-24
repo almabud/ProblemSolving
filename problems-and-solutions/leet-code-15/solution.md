@@ -57,6 +57,7 @@ $=nlogn + n * (n * n (in worst case time complexity of set.add is n) ) = nlogn +
                     res.append((nums[i], nums[pointer1], nums[pointer2]))
                     pointer1 += 1
                     pointer2 -= 1
+                    # Excluding the duplicates.
                     while pointer1<pointer2 and nums[pointer1-1] == nums[pointer1]:
                         pointer1 += 1
                     while pointer1<pointer2 and nums[pointer2+1] == nums[pointer2]:
