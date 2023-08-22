@@ -1,4 +1,4 @@
-# [Leet-code] 1. Two sum(url="https://leetcode.com/problems/two-sum/")
+# [Leet-code] 1. [Two sum](url="https://leetcode.com/problems/two-sum/")
 
 ### Discussion
 
