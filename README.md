@@ -63,3 +63,4 @@
 |[4. Counting Bits](./problems-and-solutions/leet-code-338/solution.md)|[338. Counting Bits](https://leetcode.com/problems/counting-bits/)|${\color{green} Easy}$ |`Leet Code`|
 |[5. Sum of Two Integers](./problems-and-solutions/leet-code-371/solution.md)|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|${\color{orange} Medium}$ |`Leet Code`|
 --------------------------------------------------------------------------------------------------------------------------------------------
+## Total Solved: 34
