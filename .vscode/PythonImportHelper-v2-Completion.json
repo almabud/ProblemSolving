@@ -1,0 +1,611 @@
+[
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "LCS",
+        "kind": 6,
+        "importPath": "Algorithms.dp.lcs.lcs",
+        "description": "Algorithms.dp.lcs.lcs",
+        "peekOfCode": "class LCS:\n    def find_lcs(self, seq_1:str, seq_2: str) -> int:\n        return self.lcs_recursive_dp(seq_1, seq_2)\n    def lcs_recursive(self, seq_1: str, seq_2: str, index_i=0, index_j=0) -> int:\n        # If any index is goes to the corespoinding sequence end then return 0.\n        if index_i >= len(seq_1) or index_j >= len(seq_2):\n            return 0\n        # Storing the ans\n        ans = 0\n        # Situation for both are same",
+        "detail": "Algorithms.dp.lcs.lcs",
+        "documentation": {}
+    },
+    {
+        "label": "LIS",
+        "kind": 6,
+        "importPath": "Algorithms.dp.lis.lis",
+        "description": "Algorithms.dp.lis.lis",
+        "peekOfCode": "class LIS:\n    def find_LIS(self, seq: List[int]) -> int:\n        return self.LIS_n_log_n(seq)\n    def find_recursive_LIS_v1(self, seq: List[int]) -> int:\n        \"\"\"\n            Find the LIS for every position.\n        \"\"\"\n        ans = 0\n        dp = [-1] * len(seq)\n        for i, val in enumerate(seq):",
+        "detail": "Algorithms.dp.lis.lis",
+        "documentation": {}
+    },
+    {
+        "label": "QuickFindUF",
+        "kind": 6,
+        "importPath": "Algorithms.union_find.quick_find",
+        "description": "Algorithms.union_find.quick_find",
+        "peekOfCode": "class QuickFindUF:\n    \"\"\"\n        This is quickfind algorithm. An implementation of dynamic connectivity\n        problem.\n        Attributes:\n            mark_list: This is used for marking the connection between points.\n        TimeComplexity:\n            worst_case: n^2. It initialize N array, process N array and find 1.\n    \"\"\"\n    mark_list = []",
+        "detail": "Algorithms.union_find.quick_find",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-1.solution",
+        "description": "problems-and-solutions.leet-code-1.solution",
+        "peekOfCode": "class Solution:\n    def twoSum(self, nums: List[int], target: int) -> List[int]:\n        return self.twosum_twopointer(nums,target)\n    def twosum_hasmap(self, num: List[int], target: int) -> List[int]:\n        dict_store = {value:key for key, value in enumerate(nums)}\n        for key, val in enumerate(nums):\n            search_val = target - val\n            if dict_store.get(search_val) and key != dict_store.get(search_val):\n                res = (key, dict_store.get(search_val))\n                break",
+        "detail": "problems-and-solutions.leet-code-1.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-11.solution",
+        "description": "problems-and-solutions.leet-code-11.solution",
+        "peekOfCode": "class Solution:\n    def maxArea(self, height: List[int]) -> int:\n        return self.solution_in_n(height)\n    def solution_in_n(self, height: List[int]) -> int:\n        left_pointer = 0\n        right_pointer = len(height) - 1\n        max_area = -999999\n        while left_pointer < right_pointer:\n            # Calculate the area\n            if height[left_pointer] >= height[right_pointer]:",
+        "detail": "problems-and-solutions.leet-code-11.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-1143.solution",
+        "description": "problems-and-solutions.leet-code-1143.solution",
+        "peekOfCode": "class Solution:\n    def longestCommonSubsequence(self, text1: str, text2: str, index_i=0, index_j=0, dp=[]) -> int:\n        # dp initialization.\n        if not dp:\n            dp = [[-1 for x in range(len(text2))] for y in range(len(text1))]\n        # Best case.\n        if index_i >= len(text1) or index_j >= len(text2):\n            return 0\n        # Dp returning.\n        if dp[index_i][index_j] != -1:",
+        "detail": "problems-and-solutions.leet-code-1143.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-121.solution",
+        "description": "problems-and-solutions.leet-code-121.solution",
+        "peekOfCode": "class Solution:\n    def maxProfit(self, prices: List[int]) -> int:\n        max_profit = 0\n        min_price = 1000000\n        for val in prices:\n            profit = val - min_price\n            max_profit = profit if profit>max_profit else max_profit\n            min_price = val if min_price > val else min_price\n        return max_profit\nif __name__ == \"__main__\":",
+        "detail": "problems-and-solutions.leet-code-121.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-125.solution",
+        "description": "problems-and-solutions.leet-code-125.solution",
+        "peekOfCode": "class Solution:\n    def isPalindrome(self, s: str) -> bool:\n        left_point = 0\n        right_point = len(s) - 1 \n        while left_point <= right_point:\n            if not s[left_point].isalnum() and not s[right_point].isalnum():\n                left_point += 1\n                right_point -= 1\n                continue\n            elif not s[left_point].isalnum():",
+        "detail": "problems-and-solutions.leet-code-125.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-139.solution",
+        "description": "problems-and-solutions.leet-code-139.solution",
+        "peekOfCode": "class Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> bool:\n        mark = [False] * len(s)\n        for i in range(len(s)-1, -1, -1):\n            for word in wordDict:\n                if (i+len(word)) <= len(s) and word == s[i:i+len(word)]:\n                    if i+len(word) == len(s):\n                        mark[i] = True\n                    # Check if breaking point is true or not\n                    elif mark[i+len(word)]:",
+        "detail": "problems-and-solutions.leet-code-139.solution",
+        "documentation": {}
+    },
+    {
+        "label": "ListNode",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-141.solution",
+        "description": "problems-and-solutions.leet-code-141.solution",
+        "peekOfCode": "class ListNode:\n    def __init__(self, x, next_head=None):\n        self.val = x\n        self.next = next_head\nclass Solution:\n    def hasCycle(self, head: Optional[ListNode]) -> bool:\n        return self.hare_tortoise_algo(head)\n    def hare_tortoise_algo(self, head: Optional[ListNode]) -> bool:\n        if not head or not head.next:\n            return False",
+        "detail": "problems-and-solutions.leet-code-141.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-141.solution",
+        "description": "problems-and-solutions.leet-code-141.solution",
+        "peekOfCode": "class Solution:\n    def hasCycle(self, head: Optional[ListNode]) -> bool:\n        return self.hare_tortoise_algo(head)\n    def hare_tortoise_algo(self, head: Optional[ListNode]) -> bool:\n        if not head or not head.next:\n            return False\n        slow = head\n        fast = head\n        while fast:\n            if not fast.next or not fast.next.next:",
+        "detail": "problems-and-solutions.leet-code-141.solution",
+        "documentation": {}
+    },
+    {
+        "label": "ListNode",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-143.solution",
+        "description": "problems-and-solutions.leet-code-143.solution",
+        "peekOfCode": "class ListNode:\n    def __init__(self, val=None, next=None):\n        self.val = val\n        self.next = next\n    def print_list(self, head=None):\n        head = self if not head else head\n        # Print Linked list\n        while head:\n            print(head.val, end=' ')\n            head = head.next",
+        "detail": "problems-and-solutions.leet-code-143.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-143.solution",
+        "description": "problems-and-solutions.leet-code-143.solution",
+        "peekOfCode": "class Solution:\n    def reorderList(self, head: Optional[ListNode]) -> None:\n        # Find the midle.\n        mid_head = fast_head = head\n        while fast_head and fast_head.next:\n            mid_head = mid_head.next\n            fast_head = fast_head.next.next\n        rev_head = self.reverse_linked_list(mid_head)\n        cur_head = head\n        while cur_head != rev_head:",
+        "detail": "problems-and-solutions.leet-code-143.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-15.solution",
+        "description": "problems-and-solutions.leet-code-15.solution",
+        "peekOfCode": "class Solution:\n    def threeSum(self, nums: List[int]) -> List[List[int]]:\n        return self.threesum_n_square(nums)\n    def threesum_n_square(self, nums: List[int]) -> List[List[int]]:\n        nums.sort()\n        i = 0\n        res = set()\n        while i<len(nums):\n            pointer1 = i+1\n            pointer2 = len(nums) - 1",
+        "detail": "problems-and-solutions.leet-code-15.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-152.solution",
+        "description": "problems-and-solutions.leet-code-152.solution",
+        "peekOfCode": "class Solution:\n    def maxProduct(self, nums: List[int]) -> int:\n        \"\"\"\n            max(reverse_prod, forward_prod)\n        \"\"\"\n        max_prod1 = max_prod2 = -999999\n        prod1 = prod2 = 1\n        i = 0\n        j = len(nums) - 1\n        while i < len(nums):",
+        "detail": "problems-and-solutions.leet-code-152.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-153.solution",
+        "description": "problems-and-solutions.leet-code-153.solution",
+        "peekOfCode": "class Solution:\n    def findMin(self, nums: List[int]) -> int:\n        return self.find_min_bi_search_way_in_log_n(nums)\n    def find_min_in_n(self, nums: List[int]) -> int:\n        min_element = 999999999\n        for val in nums:\n            min_element = min(min_element, val)\n        return min_element\n    def find_min_in_log_n(self, nums: List[int], left=None, right=None) -> int:\n        \"\"\"",
+        "detail": "problems-and-solutions.leet-code-153.solution",
+        "documentation": {}
+    },
+    {
+        "label": "ListNode",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-19.solution",
+        "description": "problems-and-solutions.leet-code-19.solution",
+        "peekOfCode": "class ListNode:\n    def __init__(self, val=None, next=None):\n        self.val = val\n        self.next = next\n    def print_list(self, head=None):\n        head = self if not head else head\n        # Print Linked list\n        while head:\n            print(head.val, end=' ')\n            head = head.next",
+        "detail": "problems-and-solutions.leet-code-19.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-19.solution",
+        "description": "problems-and-solutions.leet-code-19.solution",
+        "peekOfCode": "class Solution:\n    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:\n        slow_head = fast_head = head\n        # Find out the fast_head.\n        for i in range(n):\n            fast_head = fast_head.next\n        while fast_head and fast_head.next:\n            fast_head = fast_head.next\n            slow_head = slow_head.next\n        if not fast_head:",
+        "detail": "problems-and-solutions.leet-code-19.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-190.solution",
+        "description": "problems-and-solutions.leet-code-190.solution",
+        "peekOfCode": "class Solution:\n    def reverseBits(self, n: int) -> int:\n        return self.reverse_naive_solution(n)\n    def reverse_naive_solution(self, n: int) -> int:\n        max_32_bit = 0xffffffff\n        res = 0\n        for i in range(32):\n            res = ((res<<1) | ((n>>i)&1)) & max_32_bit\n            print(bin(res))\n        return res",
+        "detail": "problems-and-solutions.leet-code-190.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-191.solution",
+        "description": "problems-and-solutions.leet-code-191.solution",
+        "peekOfCode": "class Solution:\n    def __init__(self):\n        self.mark_array = self.create_lookup_table()\n    def hammingWeight(self, n: int) -> int:\n        return self.look_up_table(n)\n    def naive_solution(self, n: int) -> int:\n        n = int(n, 2)\n        count_set_bit = 0\n        while n:\n            if n & 1:",
+        "detail": "problems-and-solutions.leet-code-191.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-198.solution",
+        "description": "problems-and-solutions.leet-code-198.solution",
+        "peekOfCode": "class Solution:\n    def rob(self, nums: List[int]) -> int:\n        return self.house_rob_dp(nums)\n    def house_rob_dp(self, nums: List[int], index=0, dp=[]) -> int:\n        # Initialize the dp.\n        if not dp:\n            dp = [-1] * 500\n        if index >= len(nums):\n            return 0\n        if dp[index] != -1:",
+        "detail": "problems-and-solutions.leet-code-198.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-20.solution",
+        "description": "problems-and-solutions.leet-code-20.solution",
+        "peekOfCode": "class Solution:\n    def isValid(self, s: str) -> bool:\n        brackets = {\n            '(': ')',\n            '{': '}',\n            '[': ']'\n        }\n        stack = deque()\n        for bracket in s:\n            if brackets.get(bracket):",
+        "detail": "problems-and-solutions.leet-code-20.solution",
+        "documentation": {}
+    },
+    {
+        "label": "ListNode",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-206.solution",
+        "description": "problems-and-solutions.leet-code-206.solution",
+        "peekOfCode": "class ListNode:\n    def __init__(self, val=0, next=None):\n        self.val = val\n        self.next = next\nclass Solution:\n    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:\n       return self.recursive_reverse(head)\n    def iterative_reverse(self, head: Optional[ListNode]) -> Optional[ListNode]:\n        cur = head\n        prev = None",
+        "detail": "problems-and-solutions.leet-code-206.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-206.solution",
+        "description": "problems-and-solutions.leet-code-206.solution",
+        "peekOfCode": "class Solution:\n    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:\n       return self.recursive_reverse(head)\n    def iterative_reverse(self, head: Optional[ListNode]) -> Optional[ListNode]:\n        cur = head\n        prev = None\n        while cur:\n            cur_next = cur.next\n            cur.next = prev\n            prev = cur",
+        "detail": "problems-and-solutions.leet-code-206.solution",
+        "documentation": {}
+    },
+    {
+        "label": "ListNode",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-21.solution",
+        "description": "problems-and-solutions.leet-code-21.solution",
+        "peekOfCode": "class ListNode:\n    def __init__(self, val=None, next=None):\n        self.val = val\n        self.next = next\nclass Solution:\n    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:\n        res_head = head = None\n        while list1 or list2:\n            if not head:\n                res_head = head = ListNode()",
+        "detail": "problems-and-solutions.leet-code-21.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-21.solution",
+        "description": "problems-and-solutions.leet-code-21.solution",
+        "peekOfCode": "class Solution:\n    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:\n        res_head = head = None\n        while list1 or list2:\n            if not head:\n                res_head = head = ListNode()\n            if not list1 and not list2:\n                break\n            if list1 and not list2:\n                head.val = list1.val",
+        "detail": "problems-and-solutions.leet-code-21.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-213.solution",
+        "description": "problems-and-solutions.leet-code-213.solution",
+        "peekOfCode": "class Solution:\n    def rob(self, nums: List[int]) -> int:\n        return max(\n            self.circular_robing(nums, len(nums) - 1, 0),\n            self.circular_robing(nums, len(nums), 1)\n        )\n    def circular_robing(self, nums: List[int], length: int, index: int, dp=[]) -> int:\n        if not dp:\n            dp = [-1] * len(nums)\n        # Base case for lenght 1.",
+        "detail": "problems-and-solutions.leet-code-213.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-217.solution",
+        "description": "problems-and-solutions.leet-code-217.solution",
+        "peekOfCode": "class Solution:\n    def containsDuplicate(self, nums: List[int]) -> bool:\n        mark_dic = {}\n        for val in nums:\n            if mark_dic.get(val, None):\n                return True\n            mark_dic[val] = True\n        return False\nif __name__ == \"__main__\":\n    s = Solution()",
+        "detail": "problems-and-solutions.leet-code-217.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-238.solution",
+        "description": "problems-and-solutions.leet-code-238.solution",
+        "peekOfCode": "class Solution:\n    def productExceptSelf(self, nums: List[int]) -> List[int]:\n        zero_count = 0\n        zero_indx = None\n        prod = 1\n        for key,val in enumerate(nums):\n            if zero_count > 1:\n                break\n            if val == 0:\n                zero_count += 1",
+        "detail": "problems-and-solutions.leet-code-238.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-242.solution",
+        "description": "problems-and-solutions.leet-code-242.solution",
+        "peekOfCode": "class Solution:\n    def isAnagram(self, s: str, t: str) -> bool:\n        return self.bit_solv(s, t)\n    def mark_array_sol(self, s: str, t: str) -> bool:\n        # Len is not same then it is not a valid anagram.\n        if len(s) != len(t):\n            return False\n        # Initialize mark array\n        mark_arr1 = [0] * 256\n        mark_arr2 = [0] * 256",
+        "detail": "problems-and-solutions.leet-code-242.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-268.solution",
+        "description": "problems-and-solutions.leet-code-268.solution",
+        "peekOfCode": "class Solution:\n    def missingNumber(self, nums: List[int]) -> int:\n        all_xor = reduce(lambda x, y: x^y, range(len(nums)+1))\n        nums_xor = reduce(lambda x, y: x^y, nums)\n        return all_xor ^ nums_xor\nif __name__ == \"__main__\":\n    s = Solution()\n    print(s.missingNumber([9,6,4,2,3,5,7,8,1]))",
+        "detail": "problems-and-solutions.leet-code-268.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-300.solution",
+        "description": "problems-and-solutions.leet-code-300.solution",
+        "peekOfCode": "class Solution:\n    def lengthOfLIS(self, nums: List[int]) -> int:\n        return self.LIS_n_log_n(nums)\n    def find_LIS(self, nums: List[int]) -> int:\n        dp = [-1] * len(nums)\n        ans = 0\n        # Find the LIS for every position.\n        for i, val in enumerate(nums):\n            ans = max(ans, self.calculate_LIS(nums, i, dp))\n        return ans",
+        "detail": "problems-and-solutions.leet-code-300.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-322.solution",
+        "description": "problems-and-solutions.leet-code-322.solution",
+        "peekOfCode": "class Solution:\n    def coinChange(self, coins: List[int], amount: int) -> int:\n        dp = [-1] * 100000\n        res = self.coin_change_with_dp(coins, amount, dp)\n        return res if res < 9999999 else -1\n    def coin_change_with_dp(self, coins: List[int], amount:int, dp: List[int]) -> int:\n        if amount == 0:\n            return 0\n        if amount < 0:\n            return 9999999",
+        "detail": "problems-and-solutions.leet-code-322.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-33.solution",
+        "description": "problems-and-solutions.leet-code-33.solution",
+        "peekOfCode": "class Solution:\n    def search(self, nums: List[int], target: int) -> int:\n        return self.solution_in_log_n_binary_search_way(nums, target)\n    def solution_in_n(self, nums: List[int], target: int) -> int:\n        for key, val in enumerate(nums):\n            if val == target:\n                return key\n    def solution_in_log_n_merge_sort_way(self, nums: List[int], target: int, left=None, right=None) -> int:\n        left = 0 if left is None else left\n        right = len(nums) - 1 if right is None else right",
+        "detail": "problems-and-solutions.leet-code-33.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-338.solution",
+        "description": "problems-and-solutions.leet-code-338.solution",
+        "peekOfCode": "class Solution:\n    def __init__(self):\n        self.lookup_table = self._create_lookup_table()\n    def countBits(self, n: int) -> List[int]:\n        res = []\n        for i in range(n+1):\n            res.append(self._get_bit_count(i))\n        return res\n    def _get_bit_count(self, n: int) -> int:\n        max_8_bit = 0xff",
+        "detail": "problems-and-solutions.leet-code-338.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-371.solution",
+        "description": "problems-and-solutions.leet-code-371.solution",
+        "peekOfCode": "class Solution:\n    def getSum(self, a: int, b: int) -> int:\n        # Python has  infinite  bit limit. So We need to manually limit this to 32bit\n        # First we set a mask which binary value will be 2**32 mean 32 number of 1's\n        mask = 0xffffffff # this will output '0b11111111111111111111111111111111'\n        while b != 0:\n            # Calculate the sum\n            sum = (a ^ b) & mask\n            # Carry\n            b = ((a & b) << 1) & mask",
+        "detail": "problems-and-solutions.leet-code-371.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-377.solution",
+        "description": "problems-and-solutions.leet-code-377.solution",
+        "peekOfCode": "class Solution:\n    def combinationSum4(self, nums: List[int], target: int) -> int:\n        return self.dp_solution(nums, target)\n    def dp_solution(self, nums: List[int], target: int, dp=[]) -> int:\n        if not dp:\n            dp = [-1] * 2000\n        # Base case.\n        if target == 0:\n            return 1\n        # If not meet the target.",
+        "detail": "problems-and-solutions.leet-code-377.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-53.solution",
+        "description": "problems-and-solutions.leet-code-53.solution",
+        "peekOfCode": "class Solution:\n    def maxSubArray(self, nums: List[int]) -> int:\n        max_sum = nums[0]\n        sum = 0\n        for val in nums:\n            sum += val\n            max_sum = max(sum, max_sum)\n            if sum < 0:\n                sum = 0\n        return max_sum",
+        "detail": "problems-and-solutions.leet-code-53.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-62.solution",
+        "description": "problems-and-solutions.leet-code-62.solution",
+        "peekOfCode": "class Solution:\n    def uniquePaths(self, m: int, n: int) -> int:\n        return self.dp_unique_paths(m-1, n-1)\n    def dp_unique_paths(self, m: int, n: int, dp=[]) -> int:\n        # Initialize the dp.\n        if not dp:\n            dp = [[-1 for x in range(n+1)] for y in range(m+1)]\n        # Base case.\n        if m == 0 or n == 0:\n            return 1",
+        "detail": "problems-and-solutions.leet-code-62.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-70.solution",
+        "description": "problems-and-solutions.leet-code-70.solution",
+        "peekOfCode": "class Solution:\n    def climbStairs(self, n: int) -> int:\n        dp = [0] * 46\n        return self.count_distinct_way(n, dp)\n    def count_distinct_way(self, n: int, dp: List[int]) -> int:\n        if n <= 0:\n            return 0\n        if n == 1:\n            return 1\n        if n == 2:",
+        "detail": "problems-and-solutions.leet-code-70.solution",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "problems-and-solutions.leet-code-91.solution",
+        "description": "problems-and-solutions.leet-code-91.solution",
+        "peekOfCode": "class Solution:\n    def numDecodings(self, s: str) -> int:\n        dp = [0] * len(s)\n        return self.dp_solution(s, 0, dp)\n    def dp_solution(self, s:str, index=0, dp=[]) -> int:\n        if index >= len(s):\n            return 1\n        if int(s[index]) == 0:\n            return 0\n        if dp[index]:",
+        "detail": "problems-and-solutions.leet-code-91.solution",
+        "documentation": {}
+    }
+]
