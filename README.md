@@ -20,7 +20,7 @@
 |Problem           |  Description link             |       Status              |   Website Name   |
 |-------------------|-------------------------------|---------------------------|-----------------:|
 | **Arrays & Hashing**     |                        |                           |                  |
-|[1. Two Sum](./problems-and-solutions/leet-code-1/solution.md) | [1. Two Sum](https://leetcode.com/problems/two-sum/)  | ${\color{green} Easy}$ |`Leet Code`|
+|[1. Two Sum](problems-and-solutions/leet-code-1/solution.md) | [1. Two Sum](https://leetcode.com/problems/two-sum/)  | ${\color{green} Easy}$ |`Leet Code`|
 |[2. Container With Most Water](./problems-and-solutions/leet-code-11/solution.md) | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | ${\color{orange} Medium}$| `Leet Code`|
 |[3. Three Sum](./problems-and-solutions/leet-code-15/solution.md)| [15. Three Sum](https://leetcode.com/problems/3sum/)| ${\color{orange} Medium}$| `Leet Code`|
 |[4. Remove Nth Node From End of List](./problems-and-solutions/leet-code-19/solution.md)|[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|${\color{orange} Medium}$|`Leet Code`|
